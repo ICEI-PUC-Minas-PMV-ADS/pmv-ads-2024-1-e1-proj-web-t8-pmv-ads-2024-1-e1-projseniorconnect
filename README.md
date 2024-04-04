@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 ## Integrantes
 
 * Nome completo do aluno 1
-* Nome completo do aluno 2
+* Barbara Farias da Silva
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 * Nome completo do aluno 5
