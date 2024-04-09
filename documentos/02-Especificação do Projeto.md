@@ -146,8 +146,14 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 | O sistema deve ser compatível com os sistemas: Microsoft Windows, Android, IOS, Linux e Apple macOS. | **Alta**    | 
+| RNF-02 | O sistema deve ser compatível com os principais navegadores de internet: Google Chrome, Mozilla Firefox e Microsoft Edge.   | **Alta** | 
+| RNF-03 | O sistema deve permitir ao usuário completar uma tarefa de cadastro de cliente em até 2 minutos.      | **Alta** |
+| RNF-04 | A página principal deve carregar em até 5 segundos.     | **Média** |
+| RNF-05 | O sistema deve ser eficiente em termos de consumo de recursos computacionais, como CPU, memória e largura de banda de rede.  | **Média** |
+| RNF-06 | O sistema deve oferecer uma navegação clara e intuitiva, com um menu principal visível em todas as páginas permitindo acesso fácil à todas as sessões da aplicação. | **Média** |
+| RNF-07 | O sistema deve garantir a segurança dos dados dos usuários com medidas de criptografia de dados e proteção contra ataques de segurança.  | **Média** |
+| RNF-08 | O sistema pode oferecer suporte a múltiplos idiomas, permitindo que os usuários escolham seu idioma preferido para interagir com a plataforma.  | **Baixa** |
 
 **Prioridade: Alta / Média / Baixa. 
 
