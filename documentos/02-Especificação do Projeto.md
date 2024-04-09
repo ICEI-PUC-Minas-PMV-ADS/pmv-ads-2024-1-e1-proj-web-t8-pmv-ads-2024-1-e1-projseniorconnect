@@ -92,7 +92,14 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>
+  
+  - Informações sobre cuidados paliativos e de fim de vida;
+
+  - Informações sobre saúde mental;
+  
+  - Atividades que estimulem os idosos, sejam elas físicas, cognitivas, sociais ou recreativas.
+</td>
 </tr>
 </tbody>
 </table>
