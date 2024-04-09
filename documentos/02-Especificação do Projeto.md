@@ -142,8 +142,6 @@
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
-
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
 | RNF-01 | O sistema deve ser compatível com os sistemas: Microsoft Windows, Android, IOS, Linux e Apple macOS. | **Alta**    | 
