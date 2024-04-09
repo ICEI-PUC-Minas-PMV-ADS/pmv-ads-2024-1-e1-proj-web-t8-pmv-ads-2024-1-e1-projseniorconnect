@@ -17,13 +17,9 @@
   Interface simplificada;
 
   Conteúdo relevante como notícias, artigos de interesse, histórias inspiradoras, dicas de saúde, bem-estar e finanças; 
-
   Saúde emocional;
-
   Interação social;
-
   Recursos de áudio e multimídia;
-
   Entretenimento
 </td>
 </tr>
