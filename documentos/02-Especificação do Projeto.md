@@ -123,17 +123,20 @@
 
 ## Requisitos do Projeto
 
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
-
 ### Requisitos Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
-
+| RF-01 | O sistema deve permitir ao usuário cadastrar uma conta fornecendo informações básicas como nome, idade, e-mail de acesso e senha.| **Alta** | 
+| RF-02 | O sistema deve possuir uma funcionalidade de pesquisa para permitir ao usuário localizar com facilidade as sessões da aplicação. | **Alta**   |
+| RF-03 | O sistema deve permitir ao usuário fazer o login e o logoff em sua conta. | **Alta** | 
+| RF-04 | O sistema deve permitir ao usuário alterações no seu cadastro. | **Alta** |
+| RF-05 | O sistema deve permitir que os usuários redefinam sua senha caso a esqueçam ou a percam através do envio de um e-mail de redefinição de senha. | **Alta** |
+| RF-06 | O sistema deve permitir ao usuário a comunicação via chat com o setor de suporte da aplicação. REAVALIAR | **Média** |
+| RF-07 | Os usuários devem poder navegar por uma lista de cursos disponíveis e filtrá-los por categoria de interesse e necessidade.   | **Média** |
+| RF-08 | O sistema deve oferecer a possibilidade de integração com redes sociais, permitindo que os usuários compartilhem seu progresso, realizações ou atividades da plataforma em suas redes.  | **Baixa** |
+| RF-09 | O sistema deve permitir ao usuário avaliar os recursos da aplicação através de notas sendo 1 ruim até 5 excelente. | **Baixa** | 
 **Prioridade: Alta / Média / Baixa. 
 
 ### Requisitos não Funcionais
