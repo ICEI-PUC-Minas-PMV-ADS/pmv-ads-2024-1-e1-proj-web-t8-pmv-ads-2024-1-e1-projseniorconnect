@@ -43,6 +43,7 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
+  
   - Controle dos conteúdos acessados pelos seus pacientes;
   
   - Informações sobre cuidados paliativos e fim de vida;
