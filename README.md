@@ -1,12 +1,13 @@
 # Título do Projeto
 
-`CURSO`
+ANÁLISE DE SISTEMAS
 
-`DISCIPLINA`
+PROJETO: DESENVOLVIMNENTO DE APLICAÇÃO WEB FRONT-END
 
-`SEMESTRE`
+EIXO 1 - 2024/1
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Este projeto visa criar uma aplicação web dedicada aos idosos e aos grupos que interagem diretamente com essa comunidade, oferecendo conteúdos educacionais, de bem-estar e informações nutricionais. A proposta visa promover uma melhor qualidade de vida para os idosos, ajudando-os a manter-se ativos, saudáveis e conectados por meio de recursos online acessíveis. Queremos proporcionar um espaço para interação social e aprendizado contínuo. Nosso projeto também tem como objetivo promover o uso positivo das novas tecnologias entre os idosos, facilitando sua aceitação e familiaridade com aplicativos e recursos online que possam melhorar seu dia a dia.
 
 ## Integrantes
 
