@@ -31,7 +31,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 Segue abaixo, uma imagem do Kanban board utilizado pelo grupo. O link para o mesmo está disponível em https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1008/views/1
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/3d79f64d-1df6-4040-b65f-f4fdb39229f3)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/39456512-2f52-443a-866c-3050a58b0826)
 Figura 2 - Tela do kanban (GitHub) utilizada pelo grupo.
 
 
