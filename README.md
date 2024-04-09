@@ -12,7 +12,7 @@ Este projeto visa criar uma aplicação web dedicada aos idosos e aos grupos que
 
 * Arthur Gonçalves Vieira
 * Barbara Farias da Silva
-* Nome completo do aluno 3
+* Hideki Yukinori
 * Rafael Pessoa de Carvalho
 
 ## Orientador
