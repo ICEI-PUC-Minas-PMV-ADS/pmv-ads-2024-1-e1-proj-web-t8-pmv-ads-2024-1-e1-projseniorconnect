@@ -67,7 +67,16 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>
+  
+  - Ter controle sobre os conteúdos acessados pelo idoso;
+  
+  - Informações sobre cuidados paliativos e fim de vida;
+  
+  - Informações sobre saúde mental;
+  
+  - Atividades que estimulem os idosos, sejam elas físicas, cognitivas, sociais ou recreativas.
+</td>
 </tr>
 </tbody>
 </table>
