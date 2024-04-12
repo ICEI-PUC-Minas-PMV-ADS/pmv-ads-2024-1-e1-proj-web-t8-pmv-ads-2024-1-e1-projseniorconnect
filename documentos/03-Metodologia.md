@@ -61,7 +61,14 @@ Figura 2 - Tela do kanban (GitHub) utilizada pelo grupo.
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+As ferramentas utilizadas para construir o projeto são:
+- Editor de código (VScode)
+- Ferramentas de Wireframe (Figma)
+- Ferramentas de gestão do projeto (Kanban GitHub)
+- Aplicativos de comunicação (Discord, Whatsapp, Teams)
+- Ambiente para armazenamento do código fonte (GitHub)
+
+Esses ambientes e ferramentas de trabalho são essenciais para promover a colaboração eficaz, gerenciar o código fonte de forma organizada e manter um processo de desenvolvimento ágil e adaptativo. A combinação desses elementos contribui para o sucesso do projeto, garantindo uma entrega de software de qualidade dentro dos prazos estabelecidos.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
