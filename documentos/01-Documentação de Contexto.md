@@ -25,6 +25,14 @@ Devido a estes problemas e a muitos outros não citados, nos preocupamos com a e
 
 O objetivo da nossa plataforma de aprendizado é contribuir, capacitar e melhorar a vida das pessoas acima de 60 anos transmitindo conhecimento, incentivando e proporcionando familiaridade com a tecnologia, disponibilizando cursos com a ideia de incluir a pessoa idosa para a sociedade combatendo o isolamento social e devolvendo sua autoestima e confiança. Além disso, o estudo exercita o cérebro, previne doenças degenerativas e neurológicas, já que estimula o cérebro com a troca de informações.
 
+Objetivos específicos:
+- Promover o aprendizado e desenvolvimento através de conteúdos educacionais variados;
+- Facilitar o acesso à tecnologia com recursos e tutoriais simples para ajudar os idosos a se familiarizarem com a tecnologia e aproveitarem os benefícios online de maneira segura e confortável;
+- Promover a saúde física e mental com dicas de alimentação e desafios cognitivos;
+- Estimular o entretenimento e a cultura, fornecendo notícias atualizadas, sugestões de eventos culturais, de lazer e de viagens acessíveis aos idosos.
+- Facilitar a conexão e comunidade criando um ambiente virtual acolhedor e inclusivo para os idosos se conectarem, compartilharem experiências e construírem relacionamentos;
+- Empoderar os idosos com informação de qualidade e cursos em atividades criativas, como artesanato, literatura e jardinagem.
+
 ## Justificativa
 
 O envelhecimento populacional é uma realidade mundial, e o aumento da expectativa de vida tem trazido consigo desafios significativos, especialmente no que diz respeito ao acesso à educação e à informação para os idosos. Este grupo demográfico muitas vezes enfrenta barreiras significativas para acessar oportunidades educacionais e informações de qualidade, seja devido à falta de recursos financeiros, limitações físicas ou simplesmente à falta de familiaridade com a tecnologia.
