@@ -1,6 +1,6 @@
 # Referências Bibliográficas
 
-[Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.]
+FONSECA, Isabella. Engenharia de Software Conference. São Paulo: DevMedia, 2009.
 
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/)
