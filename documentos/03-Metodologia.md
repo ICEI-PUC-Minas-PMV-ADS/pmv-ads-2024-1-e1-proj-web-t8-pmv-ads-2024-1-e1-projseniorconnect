@@ -65,7 +65,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/tree/main    |
 | Projeto de Interface                | Figma                              | https://www.figma.com/file/op9J4wfm6Pv1HnUHNwlVtb/Untitled?type=whiteboard&node-id=0-1&t=gnYHE98Z1j3W5mRp-0     |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1008/views/1                    |
-| Hospedagem                          | GitHub Pages                       | http:// FAZER                           |
+| Hospedagem                          | GitHub Pages                       | http://                            |
 
 
 ### Estratégia de Organização de Codificação 
