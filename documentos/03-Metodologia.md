@@ -17,11 +17,6 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Equipe de Desenvolvimento: Arthur, Bárbara, Hideki, Rafael
 - Equipe de Design: Arthur, Hideki
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 ### Processo
 
 - Product Backlog: recebe as tarefas a serem trabalhadas e representa o "Backlog do Produto". Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
