@@ -31,16 +31,8 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 Segue abaixo, uma imagem do Kanban board utilizado pelo grupo. O link para o mesmo está disponível em https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1008/views/1
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/39456512-2f52-443a-866c-3050a58b0826)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/ae960b55-83d1-4aa5-ba46-df076723eff3)
 Figura 2 - Tela do kanban (GitHub) utilizada pelo grupo.
-
-
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
