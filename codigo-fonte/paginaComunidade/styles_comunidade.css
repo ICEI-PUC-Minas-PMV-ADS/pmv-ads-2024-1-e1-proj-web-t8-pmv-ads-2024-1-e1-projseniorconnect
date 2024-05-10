@@ -1,0 +1,53 @@
+.postagem-info {
+    background-color: rgba(173, 216, 230, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    /* Adicionado para posicionamento dos botões e contagem de likes */
+}
+
+.postagem-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postagem-usuario i {
+    margin-right: 5px;
+}
+
+.comentario-info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.comentario-info i {
+    margin-right: 5px;
+}
+
+.comentario-usuario i {
+    margin-right: 5px;
+}
+
+.comentario-texto {
+    margin-left: 20px;
+}
+
+.comentario-icon-usuario,
+.comentario-nome-usuario {
+    color: #97694F;
+}
+
+.comment-box {
+    margin-left: 10px;
+    width: calc(100% - 30px);
+    /* Ajuste para o tamanho da caixa de comentário */
+}
+
+.formulario-pesquisa {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
