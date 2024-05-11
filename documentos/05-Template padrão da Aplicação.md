@@ -11,4 +11,5 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 > - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
 > - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
 
-![logo_site](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/7ea314e5-9baf-401a-a8db-8e2c3670b3a5)
+
+![logo_site_semfundo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/af4ae4c9-5e91-4fe7-ac39-244a46d36d46)
