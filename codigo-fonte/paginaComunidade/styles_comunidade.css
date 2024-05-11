@@ -4,7 +4,6 @@
     border-radius: 5px;
     margin-bottom: 20px;
     position: relative;
-    /* Adicionado para posicionamento dos botões e contagem de likes */
 }
 
 .postagem-footer {
@@ -44,10 +43,30 @@
 .comment-box {
     margin-left: 10px;
     width: calc(100% - 30px);
-    /* Ajuste para o tamanho da caixa de comentário */
 }
 
 .formulario-pesquisa {
     margin-bottom: 100px;
     margin-top: 100px;
 }
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+}
+
+.dropdown-menu .dropdown-item {
+color: white;
+}
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+    background-color: #3385ff;
+}
+.dropdown-menu {
+    background-color: #3385ff;
+}
+
+.navbar {
+background-color: #3385ff !important
+  }

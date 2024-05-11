@@ -1,8 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Função para exibir postagens armazenadas
-    function exibirPostagens() {
+    function exibirPostagens(termoPesquisa) {
         var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
 
+        // Filtrar postagens com base no termo de pesquisa, se fornecido
+        if (termoPesquisa) {
+            postagens = postagens.filter(postagem =>
+                postagem.titulo.toLowerCase().includes(termoPesquisa.toLowerCase())
+            );
+        }    
         // Ordenar postagens por ordem decrescente de data
         postagens.sort((a, b) => new Date(b.data) - new Date(a.data));
 
@@ -39,37 +45,58 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('postagens').innerHTML = postagensHtml;
     }
 
-    // Função para adicionar like a uma postagem
+
+    // Função para adicionar like a uma postagem AINDA NÃO IMPLEMENTADO LIMITADOR
     function adicionarLike(postagemId) {
         var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
         var postagem = postagens[postagemId];
 
-        // Verificar se o usuário já deu like
-        if (!postagem.likesGiven || !postagem.likesGiven.includes('user123')) { // Substitua 'user123' pelo identificador do usuário
+        // Verificar se o usuário já deu like AINDA NÃO IMPLEMENTADO LIMITADOR
+        if (!postagem.likesGiven || !postagem.likesGiven.includes('user01')) { // Substitua 'user123' pelo identificador do usuário
             postagem.likes = (postagem.likes || 0) + 1;
             postagem.likesGiven = postagem.likesGiven || [];
-            postagem.likesGiven.push('user123'); // Registrar que o usuário deu like
+            postagem.likesGiven.push('user01'); // Registrar que o usuário deu like
             updateLikes(postagemId, postagem.likes);
         } else {
             alert('Você já deu like nesta postagem.');
         }
     }
-
-    // Função para adicionar dislike a uma postagem
+    // Função para adicionar dislike a uma postagem AINDA NÃO IMPLEMENTADO LIMITADOR
     function adicionarDislike(postagemId) {
         var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
         var postagem = postagens[postagemId];
 
-        // Verificar se o usuário já deu dislike
-        if (!postagem.dislikesGiven || !postagem.dislikesGiven.includes('user123')) { // Substitua 'user123' pelo identificador do usuário
+        // Verificar se o usuário já deu dislike AINDA NÃO IMPLEMENTADO LIMITADOR
+        if (!postagem.dislikesGiven || !postagem.dislikesGiven.includes('user02')) { // Substitua 'user123' pelo identificador do usuário
             postagem.likes = (postagem.likes || 0) - 1;
             postagem.dislikesGiven = postagem.dislikesGiven || [];
-            postagem.dislikesGiven.push('user123'); // Registrar que o usuário deu dislike
+            postagem.dislikesGiven.push('user01'); // Registrar que o usuário deu dislike
             updateLikes(postagemId, postagem.likes);
         } else {
             alert('Você já deu dislike nesta postagem.');
         }
     }
+
+    // Lista fictícia de usuários
+    var usuarios = [
+        { id: 'user01', nome: 'Marcelo User'},
+        { id: 'user02', nome: 'Aline User'},
+        { id: 'user03', nome: 'Olavo User'},
+        { id: 'user04', nome: 'Maria User'},
+        { id: 'user05', nome: 'Gilsileine User'}
+    ];
+
+    // Função para adicionar um usuário fictício ao localStorage
+    function adicionarUsuariosFicticios() {
+        localStorage.setItem('usuarios', JSON.stringify(usuarios));
+    }
+
+    // Chamada da função para adicionar os usuários fictícios
+    adicionarUsuariosFicticios();
+
+    // adicionarLike(postagemId, usuarios[0].id); // Para adicionar like do 'Usuário 1'
+    // adicionarDislike(postagemId, usuarios[1].id); // Para adicionar dislike do 'Usuário 2'
+
 
     // Função para exibir os comentários
     function exibirComentarios(comentarios) {
@@ -136,6 +163,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // Exibir postagens ao carregar a página
     exibirPostagens();
 
+     // Adicionar evento de envio para o formulário de pesquisa
+    document.getElementById('formPesquisa').addEventListener('submit', function (event) {
+        event.preventDefault();
+        var termoPesquisa = document.querySelector('#formPesquisa input[type="search"]').value.trim();
+        exibirPostagens(termoPesquisa);  
+        
+    });
+
     // Adicionar evento de envio para o formulário
     document.getElementById('postForm').addEventListener('submit', function (event) {
         event.preventDefault();
@@ -179,6 +214,6 @@ document.addEventListener('DOMContentLoaded', function () {
             });
             localStorage.setItem('postagens', JSON.stringify(postagens));
             exibirPostagens();
-        }
+        }               
     });
 });

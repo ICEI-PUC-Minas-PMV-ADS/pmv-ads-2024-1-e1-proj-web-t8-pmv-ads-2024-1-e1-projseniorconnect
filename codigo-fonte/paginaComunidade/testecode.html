@@ -14,7 +14,6 @@
             border-radius: 5px;
             margin-bottom: 20px;
             position: relative;
-            /* Adicionado para posicionamento dos botões e contagem de likes */
         }
 
         .postagem-footer {
@@ -54,7 +53,6 @@
         .comment-box {
             margin-left: 10px;
             width: calc(100% - 30px);
-            /* Ajuste para o tamanho da caixa de comentário */
         }
 
         .formulario-pesquisa {
@@ -63,9 +61,26 @@
         }
 
         @media (min-width: 992px) {
-        .navbar-nav .nav-link {
-            font-size: 20px; /* Tamanho da fonte para telas maiores que 992px */
-        }}
+            .navbar-nav .nav-link {
+                font-size: 20px;
+            }
+        }
+
+        .dropdown-menu .dropdown-item {
+        color: white;
+        }
+        .dropdown-menu .dropdown-item:focus,
+        .dropdown-menu .dropdown-item:hover {
+            background-color: #3385ff;
+        }
+        .dropdown-menu {
+            background-color: #3385ff;
+        }
+
+        .navbar {
+        background-color: #3385ff !important
+          }
+
 
     </style>
 </head>
@@ -73,16 +88,19 @@
 <body class="d-flex flex-column vh-100">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: rgba(0, 123, 255, 0.7);">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="mini_logo.png" alt="Ícone" width="90" height="90">
+        <div class="container-fluid">
+            <!-- Ícone à esquerda -->
+            <a class="navbar-brand" href="#">
+                <img src="mini_logo_cortada.png" alt="Ícone" width="45" height="45">
             </a>
+            <!-- Botão de toggler para telas pequenas -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Itens da barra de navegação -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Notícias</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Tecnologia</a></li>
@@ -103,18 +121,10 @@
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user me-1"></i>Entrar</a></li>
                     <li class="nav-item"><a class="nav-link" href="#" id="limparLocalStorage"
                             style="color: orangered">Limpeza Local</a></li>
-                </div>
-            </div>
-            <div>
-                <!--<form action="" class="d-flex">
-                    <div class="input-group">
-                        <input type="search" name="" id="" class="form-control" placeholder="Buscar...">
-                        <button type="submit" class="btn btn-outline-success">Buscar</button>
-                    </div>
-                </form>-->
+                </ul>
             </div>
         </div>
-    </nav>
+    </nav>    
 
     <!-- Capa -->
     <div class="container-fluid p-0">
@@ -213,6 +223,7 @@
                 document.getElementById('postagens').innerHTML = postagensHtml;
             }
 
+            <!--
             // Função para adicionar like a uma postagem
             function adicionarLike(postagemId) {
                 var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
@@ -228,7 +239,6 @@
                     alert('Você já deu like nesta postagem.');
                 }
             }
-
             // Função para adicionar dislike a uma postagem
             function adicionarDislike(postagemId) {
                 var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
@@ -244,6 +254,7 @@
                     alert('Você já deu dislike nesta postagem.');
                 }
             }
+            -->
 
             // Lista fictícia de usuários
             var usuarios = [
