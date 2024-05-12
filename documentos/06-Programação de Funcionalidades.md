@@ -6,7 +6,6 @@
 
 #### Requisito atendido
 
-[RF-xxx: adicione a descrição do requisito atendido]
 RF - 02: O sistema deve possuir uma funcionalidade de pesquisa para permitir ao usuário localizar com facilidade as sessões da aplicação.
 
 #### Artefatos da funcionalidade
@@ -19,16 +18,8 @@ RF - 02: O sistema deve possuir uma funcionalidade de pesquisa para permitir ao 
 
 #### Instruções de acesso
 
-Abrir a pasta "Página Comunidade" dentro da pasta "Código Fonte". Localizar o arquivo xxx.html e abrir um Live Server pelo VScode
+Abrir a pasta "paginaComunidade" dentro da pasta "codigo-fonte" no repositório. Salvar os 5 arquivos em uma pasta e abrir um Live Server via VScode
 
 #### Responsável
 
 Rafael Pessoa
-
-
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
