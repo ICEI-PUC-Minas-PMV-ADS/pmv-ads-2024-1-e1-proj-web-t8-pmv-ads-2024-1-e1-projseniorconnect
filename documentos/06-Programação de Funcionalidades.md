@@ -1,39 +1,26 @@
 # Programação de Funcionalidades
 
-Implementação da aplicação descritas por meio dos requisitos codificados. 
-
 [Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
 
-### Título da funcionalidade
+### Tela de Comunidade
 
 [Adicione imagem da funcionalidade/tela]
 
-
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
-
+[RF-xxx: adicione a descrição do requisito atendido]
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
+[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade] códigos!
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
-
+Abrir a pasta "Página Comunidade" dentro da pasta "Código Fonte". Localizar o arquivo xxx.html e abrir um Live Server pelo VScode
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
-
+Rafael Pessoa
 
 
 > **Links Úteis**:
