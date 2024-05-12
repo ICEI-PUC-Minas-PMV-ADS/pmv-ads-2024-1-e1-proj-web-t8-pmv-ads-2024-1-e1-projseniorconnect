@@ -9,7 +9,7 @@ As páginas terão como elementos padrões o menu de navegação, o header e o f
 - Font-size: ...
 
 
-- Para a criação do logotipo do site foi utilizado um tom de azul pois... A utilização da imagem abaixo como nossa logo foi criada para representar um idoso exercitando o aprendizado, conectado a uma rede de outros usuários. No "O" da palavra SENIOR está presente uma imagem que também sugere a conexão em rede de indivíduos.
+- Para a criação do logotipo do site foi utilizado um tom de azul  azul claro, pois é uma cor capaz de estimular a criatividade em um ambiente e transmitir a sensação de sucesso e conquista. A utilização da imagem abaixo como nossa logo foi criada para representar um idoso exercitando o aprendizado, conectado a uma rede de outros usuários. No "O" da palavra SENIOR está presente uma imagem que também sugere a conexão em rede de indivíduos.
 
 
 ![logo_site_semfundo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/af4ae4c9-5e91-4fe7-ac39-244a46d36d46)
