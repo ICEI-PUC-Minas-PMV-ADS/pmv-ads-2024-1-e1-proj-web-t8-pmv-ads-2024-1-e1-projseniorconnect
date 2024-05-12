@@ -4,7 +4,7 @@
 
 ### Tela de Comunidade
 
-[Adicione imagem da funcionalidade/tela]
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/869cc78f-8f16-49e1-b25c-68cc1fe0b2de)
 
 #### Requisito atendido
 
