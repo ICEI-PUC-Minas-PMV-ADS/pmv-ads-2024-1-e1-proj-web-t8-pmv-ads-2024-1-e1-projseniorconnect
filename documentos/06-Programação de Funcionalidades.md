@@ -20,7 +20,9 @@ RF - 02: O sistema deve possuir uma funcionalidade de pesquisa para permitir ao 
 
 Abrir a pasta "paginaComunidade" dentro da pasta "codigo-fonte" no repositório. Salvar os 5 arquivos em uma pasta e abrir um Live Server via VScode
 
-# Programação de Funcionalidades
+#### Responsável
+
+Rafael Pessoa
 
 ### Dados para contato na de Home Page
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/blob/main/codigo-fonte/paginaHome/funcionalidade%20home%20page.png).
@@ -42,6 +44,4 @@ RF - 02: O sistema deve possuir uma funcionalidade de pesquisa para permitir ao 
 Preencher os campos de nome, email e mensagem ao final da home page.
 
 #### Responsável
-
-Rafael Pessoa
 Barbara Farias 
