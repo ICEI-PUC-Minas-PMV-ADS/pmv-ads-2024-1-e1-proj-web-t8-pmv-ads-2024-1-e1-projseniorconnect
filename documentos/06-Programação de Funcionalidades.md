@@ -24,7 +24,7 @@ Abrir a pasta "paginaComunidade" dentro da pasta "codigo-fonte" no repositório.
 
 Rafael Pessoa
 
-### Dados para contato na de Home Page
+### Home Page
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/blob/main/codigo-fonte/paginaHome/funcionalidade%20home%20page.png).
 
 #### Requisito atendido
