@@ -132,7 +132,7 @@
 | RF-03  | O sistema deve permitir ao usuário fazer o login e o logoff em sua conta. | **Alta** | 
 | RF-04  | O sistema deve permitir ao usuário alterações no seu cadastro. | **Alta** |
 | RF-05  | O sistema deve permitir que os usuários redefinam sua senha caso a esqueçam ou a percam através do envio de um e-mail de redefinição de senha. | **Alta** |
-| RF-06  | O sistema deve permitir ao usuário a comunicação via chat com o setor de suporte da aplicação. REAVALIAR | **Média** |
+| RF-06  | O site deve ter uma funcionalidade que permita a interação entre os usuários da plataforma | **Média** |
 | RF-07  | Os usuários devem poder navegar por uma lista de cursos disponíveis e filtrá-los por categoria de interesse e necessidade.   | **Média** |
 | RF-08  | O sistema deve oferecer a possibilidade de integração com redes sociais, permitindo que os usuários compartilhem seu progresso, realizações ou atividades da plataforma em suas redes.  | **Baixa** |
 | RF-09  | O sistema deve permitir ao usuário avaliar os recursos da aplicação através de notas sendo 1 ruim até 5 excelente. | **Baixa** | 
