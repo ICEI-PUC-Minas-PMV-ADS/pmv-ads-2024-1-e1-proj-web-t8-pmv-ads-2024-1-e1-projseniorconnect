@@ -1,1 +1,131 @@
-body{ style= display: inline-flex}
+.navbar {
+    margin-bottom: 0 !important;
+    /* Removi o ponto de exclamação aqui */
+    margin-top: -20px;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #responseMessage {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 992px) {
+    .navbar-nav .nav-link {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+  
+    #carouselExampleControls {
+      margin-top: -20px;
+    }
+  
+    .dropdown-menu .dropdown-item {
+      color: white;
+    }
+  
+    .dropdown-menu .dropdown-item:focus,
+    .dropdown-menu .dropdown-item:hover {
+      background-color: #3385ff;
+    }
+  
+    .dropdown-menu {
+      background-color: #3385ff;
+    }
+  
+    .navbar {
+      background-color: #3385ff !important
+    }
+  
+    /* Definindo altura igual para os cards */
+    .card {
+      height: 100%;
+    }
+  }
+  
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #responseMessage {
+    margin-top: 20px;
+    font-weight: bold;
+  }
