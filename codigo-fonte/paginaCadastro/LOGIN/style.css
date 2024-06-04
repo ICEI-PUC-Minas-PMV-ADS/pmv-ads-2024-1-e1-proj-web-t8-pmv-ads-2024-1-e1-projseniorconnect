@@ -19,7 +19,8 @@ body {
   background-color: whitesmoke;
   padding: 6px;
   width: 350px;
-  height: 450px;
+  height: 500px;
+  /* Ajustado para acomodar o campo adicional */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +42,7 @@ form {
   margin-top: 40px;
   position: relative;
   border-radius: 30px;
-  box-shadow: 0 0 7px 0 blueviolet;
+  box-shadow: 0 0 7px 0 #00A3C6;
 }
 
 .buttonsForm button {
@@ -56,22 +57,25 @@ form {
   position: absolute;
   width: 110px;
   height: 100%;
-  background: linear-gradient(to right, #9b99dd, #9b99dd);
+  background: linear-gradient(to right, #00A3C6, #00A3C6);
   border-radius: 30px;
   transition: .3s;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"],
+input[type="email"],
+input[type="password"] {
   border: none;
-  margin-top: 40px;
+  margin-top: 20px;
   border-radius: 60px;
-  padding: 8px 0 8px 35px;
+  padding: 12px 0 12px 40px;
   outline: none;
   width: 100%;
+  position: relative;
 }
 
 button[type="submit"] {
-  background: #9b99dd;
+  background: #00A3C6;
   color: white;
   border-radius: 30px;
   width: 100%;
@@ -99,18 +103,40 @@ button[type="submit"] {
 
 i {
   position: absolute;
-  left: 0;
-  padding: 10px 10px;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  pointer-events: none;
+}
+
+.iName {
+  top: 40px;
+  /* Ajuste para alinhar o ícone do nome */
 }
 
 .iEmail {
-  top: 40px;
+  top: 106px;
+  /* Ajuste para alinhar o ícone do email */
 }
 
+.iEmail2 {
+  top: 42px;
+  /* Ajuste para alinhar o ícone da confirmação de senha */
+}
+
+
 .iPassword {
-  top: 114px;
+  top: 170px;
+  /* Ajuste para alinhar o ícone da senha */
 }
 
 .iPassword2 {
-  top: 190px;
+  top: 235px;
+  /* Ajuste para alinhar o ícone da confirmação de senha */
+}
+
+.iPassword3 {
+  top: 105px;
+  /* Ajuste para alinhar o ícone da confirmação de senha */
 }
