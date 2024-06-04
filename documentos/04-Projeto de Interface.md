@@ -40,10 +40,6 @@ Rodapé - apresenta informações sobre os direitos autorais
 ### 08- Tela de Desafios
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/1bfc5485-f903-4131-bd73-8421d6154c3b)
 
-### 09- Telas de Dicas Alimentação e Viagens 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/46be0dde-c513-423f-9ce4-a09a56e55c28)
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/55000db8-6b55-461a-b051-0a6a3e44e162)
-
 
 
 

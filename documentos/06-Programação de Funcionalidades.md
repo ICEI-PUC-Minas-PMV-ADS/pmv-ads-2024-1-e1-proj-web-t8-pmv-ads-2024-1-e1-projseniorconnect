@@ -1,44 +1,49 @@
 # Programação de Funcionalidades
 
-Implementação da aplicação descritas por meio dos requisitos codificados. 
+### Tela de Comunidade
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
-
-### Título da funcionalidade
-
-[Adicione imagem da funcionalidade/tela]
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/869cc78f-8f16-49e1-b25c-68cc1fe0b2de)
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+- RF - 02: O sistema deve possuir uma funcionalidade de pesquisa para permitir ao usuário localizar com facilidade as sessões da aplicação.
+- RF - 06: O site deve ter uma funcionalidade que permita a interação entre os usuários da plataforma.
+
+#### Artefatos da funcionalidade
+
+- html_comunidade.html
+- styles_comunidade.css
+- scripts_comunidade.js
+- mini_logo_cortada.png (imagem)
+- capa_comunidade.png (imagem)
+
+#### Instruções de acesso
+
+Abrir a pasta "paginaComunidade" dentro da pasta "codigo-fonte" no repositório. Salvar os 5 arquivos em uma pasta e abrir um Live Server via VScode
+
+#### Responsável
+
+Rafael Pessoa
+
+### Home Page
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/blob/main/codigo-fonte/paginaHome/funcionalidade%20home%20page.png).
+
+#### Requisito atendido
+
+RF-06	O site deve ter uma funcionalidade que permita a interação entre os usuários da plataforma
 
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
+- index.html
+- style.css
+- script.js
+- mini_logo_cortada.png (imagem)
+- fincionalidade home page.png (imagem)
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
-
+Preencher os campos de nome, email e mensagem ao final da home page.
 
 #### Responsável
-
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
-
-
-
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
+Barbara Farias 
