@@ -10,6 +10,3 @@
 - IBGE. (2022). 161,6 milhões de pessoas com 10 anos ou mais de idade utilizaram a Internet no país, em 2022. Recuperado de 161,6 milhões de pessoas com 10 anos ou mais de idade utilizaram a Internet no país, em 2022 | Agência de Notícias (https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/38307-161-6-milhoes-de-pessoas-com-10-anos-ou-mais-de-idade-utilizaram-a-internet-no-pais-em-2022#:~:text=Destaques,62%2C1%25%20em%202022)
 - FONSECA, Isabella. Engenharia de Software Conference. São Paulo: DevMedia, 2009.
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
