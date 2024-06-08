@@ -5,8 +5,7 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 As páginas terão como elementos padrões o menu de navegação, o header e o footer, além dos elementos de identidade visual citados abaixo:
 
 - Cores: RGB #3385ff (navbar), bg-light (footer Bootstrap), white (body background)
-- Font-family: ...
-- Font-size: ...
+- Font-family: poppins, sans-serif
 
 - A seleção do tom de azul claro para o logotipo do site baseou-se em estudos psicológicos que indicam sua capacidade de promover a criatividade e evocar sensações de sucesso e realização em um ambiente. A escolha da imagem representativa, retratando um idoso engajado no processo de aprendizado (ilustrado pelo livro), à frente de outros usuários foi escolhida para simbolizar a interconexão entre os usuários da plataforma. Notavelmente, o elemento visual incorporado ao "O" da palavra "SENIOR" foi concebido para reforçar visualmente o conceito de rede, sugerindo a interligação entre os indivíduos que compõem a comunidade do Senior Connect.
 
