@@ -1,4 +1,7 @@
 Instruções de utilização:
 
-Os códigos estão divididos por tipo de arquivo, sendo uma pasta contendo todos os arquivos HTML, uma com todos os arquivos CSS e uma com todos os arquivos JavaScript
+- code_html -> contém todos os arquivos HTML desenvolvidos no projeto;
+- code_css -> contém todos os arquivos CSS desenvolvidos no projeto;
+- code_js -> contém todos os arquivos JavaScript desenvolvidos no projeto;
+- imagens -> contém todos os arquivos de imagens utilizadas no projeto;
 
