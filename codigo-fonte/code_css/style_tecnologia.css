@@ -1,0 +1,137 @@
+.principal {
+    text-align: center; 
+  }
+  
+.principal img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+  }
+
+.lista{
+    width: 80%; 
+    margin: 0 auto; 
+    background-color: #ffffff;
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    
+}  
+
+body{
+    background-color: #ECECEC;
+}
+
+.topico {
+    width: 95%; 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 40px; 
+    margin-top: 40px; 
+  }
+  
+  .topico-imagem {
+    width: 10%; 
+    max-width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+  }
+  
+  .topico-texto {
+    width: 80%;
+    padding: 0 10px; 
+    word-wrap: break-word; 
+  }
+  
+  .topico-texto h3, .topico-texto p {
+    margin: 0; 
+    padding: 5px 0; 
+    text-align: left; 
+  }
+  .topico-botão {
+    margin-left: auto; 
+}
+.topico-texto p {
+    font-size: 20px;
+}
+
+.button {
+    background-color: #00A3C6; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left: 1000px; 
+    margin-right: 0;
+}
+
+
+  .button:hover {
+    background-color: #01748F; 
+  }
+
+  .navbar {
+    margin-bottom: 0 !important;
+    margin-top: 0; 
+    padding: 10px 0; 
+    background-color: rgba(173, 216, 230, 0.7); 
+    
+}
+
+.navbar-brand img {
+    width: 45px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.navbar-toggler {
+    background-color: transparent; 
+    border: none; 
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    color: #97694F; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #543B26; 
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+    background-color: #3385ff;
+}
+
+.dropdown-menu {
+    background-color: #3385ff;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .navbar {
+        background-color: #3385ff !important;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
