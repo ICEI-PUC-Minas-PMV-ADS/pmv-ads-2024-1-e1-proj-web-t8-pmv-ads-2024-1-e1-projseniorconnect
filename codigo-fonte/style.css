@@ -1,0 +1,78 @@
+/* style.css */
+
+/* Estilo para a imagem de destaque */
+.destaque {
+    height: 100px; /* Ajuste essa altura conforme necessário */
+    object-fit: cover; /* Mantém a proporção da imagem, preenchendo a altura definida */
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contêiner para imagem e título sobreposto */
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Estilo para o título sobreposto */
+.title-overlay {
+    position:absolute;
+    top: 20px;
+    left: 170px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem; /* Ajuste o tamanho da fonte conforme necessário */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para garantir que a imagem não tenha margens extras */
+.destaque.img-fluid {
+    display: block;
+    max-width: 100%;
+    height: 865px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo para centralizar o conteúdo da seção "Aprenda Sobre" */
+.aprenda-sobre-section {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza o texto */
+    padding: 50px 0; /* Espaço acima e abaixo da seção */
+}
+
+.tudo-sobre-section{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    padding: 50px 0;
+}
+
+.tudo-sobre-section p {
+    margin-right: auto;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333; /* Cor do texto */
+    margin-bottom: 10px; /* Espaço abaixo do parágrafo */
+}
+
+.tudo-sobre-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000; /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Dentro do seu arquivo style.css */
+
+.tudo-sobre-section img {
+    max-width: 200px; /* Define a largura máxima das imagens como 100% do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Para garantir que as imagens não fiquem com espaços indesejados */
+    margin-bottom: 10px; /* Espaço abaixo das imagens */
+}

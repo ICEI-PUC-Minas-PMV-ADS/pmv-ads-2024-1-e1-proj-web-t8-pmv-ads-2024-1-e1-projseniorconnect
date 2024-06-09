@@ -35,7 +35,7 @@ Este projeto visa criar uma aplicação web dedicada aos idosos e aos grupos que
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_home.html
 
 # Código-Fonte
 
