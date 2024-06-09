@@ -1,4 +1,7 @@
+var usuario_logado;
 document.addEventListener('DOMContentLoaded', function () {
+    usuario_logado = JSON.parse(localStorage.getItem("usuario_logado")) || [];
+    
     // Função para exibir postagens armazenadas
     function exibirPostagens(termoPesquisa) {
         var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
@@ -78,21 +81,21 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Lista fictícia de usuários
-    var usuarios = [
-        { id: 'user01', nome: 'Marcelo User'},
-        { id: 'user02', nome: 'Aline User'},
-        { id: 'user03', nome: 'Olavo User'},
-        { id: 'user04', nome: 'Maria User'},
-        { id: 'user05', nome: 'Gilsileine User'}
-    ];
+    // var usuarios = [
+    //     { id: 'user01', nome: 'Marcelo User'},
+    //     { id: 'user02', nome: 'Aline User'},
+    //     { id: 'user03', nome: 'Olavo User'},
+    //     { id: 'user04', nome: 'Maria User'},
+    //     { id: 'user05', nome: 'Gilsileine User'}
+    // ];
 
-    // Função para adicionar um usuário fictício ao localStorage
-    function adicionarUsuariosFicticios() {
-        localStorage.setItem('usuarios', JSON.stringify(usuarios));
-    }
+    // // Função para adicionar um usuário fictício ao localStorage
+    // function adicionarUsuariosFicticios() {
+    //     localStorage.setItem('usuarios', JSON.stringify(usuarios));
+    // }
 
-    // Chamada da função para adicionar os usuários fictícios
-    adicionarUsuariosFicticios();
+    // // Chamada da função para adicionar os usuários fictícios
+    // adicionarUsuariosFicticios();
 
     // adicionarLike(postagemId, usuarios[0].id); // Para adicionar like do 'Usuário 1'
     // adicionarDislike(postagemId, usuarios[1].id); // Para adicionar dislike do 'Usuário 2'
@@ -127,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
 
         postagens.push({
-            id: gerarId() ,
+            id: gerarId(),
             nomeUsuario: nomeUsuario,
             titulo: titulo,
             conteudo: conteudo,
@@ -175,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('postForm').addEventListener('submit', function (event) {
         event.preventDefault();
 
-        var nomeUsuario = "Usuário"; // Nome temporário
+        var nomeUsuario = usuario_logado.name;
         var titulo = document.getElementById('titulo').value;
         var conteudo = document.getElementById('conteudo').value;
 
@@ -209,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
             if (!postagens.find(x => x.id === postagemId).comentarios) postagens.find(x => x.id === postagemId).comentarios = [];
             postagens.find(x => x.id === postagemId).comentarios.push({
-                nomeUsuario: "Usuário", // Nome temporário
+                nomeUsuario: usuario_logado.name,
                 texto: comentario
             });
             localStorage.setItem('postagens', JSON.stringify(postagens));
