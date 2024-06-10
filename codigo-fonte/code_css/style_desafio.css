@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECECEC;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: rgba(173, 216, 230, 0.7);
+}
+
+.navbar-brand img {
+    width: 45px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    color: #97694F;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #543B26;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+    background-color: #3385ff;
+}
+
+.dropdown-menu {
+    background-color: #3385ff;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .navbar {
+        background-color: #3385ff !important;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+.memory-container {
+    background-color: #01748F;
+    padding: 50px 0;
+    width: 40%;
+    height: 80vh;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.memory-game {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.memory-game h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.memory-game p {
+    font-size: 16px;
+    color: #666;
+}
+
+.memory-challenge {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sequence {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color-box:hover {
+    opacity: 0.7;
+}
+
+[data-color="red"] {
+    background-color: red;
+}
+
+[data-color="green"] {
+    background-color: green;
+}
+
+[data-color="blue"] {
+    background-color: blue;
+}
+
+[data-color="yellow"] {
+    background-color: yellow;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #3385ff;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#points {
+    font-weight: bold;
+}
+
+.selected {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
