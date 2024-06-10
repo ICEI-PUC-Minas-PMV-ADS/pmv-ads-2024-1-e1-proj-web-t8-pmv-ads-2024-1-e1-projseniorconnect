@@ -78,7 +78,7 @@ function saveData2(){
 
         localStorage.setItem("name",current_user.name);
         localStorage.setItem("email",current_user.email);
-        // window.location.href="profile.html"
+        window.location.href="../code_html/html_perfil.html"
     }
     else {
         alert("Login Fail")
