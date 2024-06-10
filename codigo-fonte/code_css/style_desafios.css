@@ -1,0 +1,124 @@
+.navbar {
+    margin-bottom: 0 !important;
+    margin-top: 0; 
+    padding: 10px 0; 
+    background-color: rgba(173, 216, 230, 0.7); 
+    
+}
+
+.navbar-brand img {
+    width: 45px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.navbar-toggler {
+    background-color: transparent; 
+    border: none; 
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    color: #97694F; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #543B26; 
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+    background-color: #3385ff;
+}
+
+.dropdown-menu {
+    background-color: #3385ff;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .navbar {
+        background-color: #3385ff !important;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #3385ff;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Estilos da área de memória */
+.memory-challenge {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .sequence {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px; /* Ajustado o espaçamento horizontal entre as caixas de cores */
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  /* Cores das caixas de cores */
+  [data-color="red"] { background-color: red; }
+  [data-color="green"] { background-color: green; }
+  [data-color="blue"] { background-color: blue; }
+  [data-color="yellow"] { background-color: yellow; }
+  
+  /* Estilos dos botões */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #3385ff;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px; /* Adicionado espaçamento entre os botões */
+    margin-top: 40px;
+  }
+  
+  
