@@ -105,3 +105,11 @@ background-color: #0056b3;
 margin-top: 20px;
 font-weight: bold;
 }
+footer {
+  display: flex;
+  margin: auto;
+  bottom: 0;
+  justify-content: center;
+  width: 100%;
+  background-color:  #3385ff;
+}
