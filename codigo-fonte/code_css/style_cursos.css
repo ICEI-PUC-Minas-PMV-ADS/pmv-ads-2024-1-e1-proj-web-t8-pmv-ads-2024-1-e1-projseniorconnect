@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.box button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #01748F;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.box button:hover {
+    background-color: #01748F;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+    background-color: #01748F;
+}
+
+.navbar {
+    margin: 0;
+    padding: 10px 0; 
+    background-color: rgba(173, 216, 230, 0.7);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    right: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    z-index: 1000; 
+}
+.navbar-brand img {
+    width: 45px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.navbar-toggler {
+    background-color: transparent; 
+    border: none; 
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; 
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #543B26;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+    background-color: #3385ff;
+}
+
+.dropdown-menu {
+    background-color: #3385ff;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .navbar {
+        background-color: #3385ff !important;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
