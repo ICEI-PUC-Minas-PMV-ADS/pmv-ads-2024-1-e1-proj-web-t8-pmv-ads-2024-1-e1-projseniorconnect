@@ -1,0 +1,581 @@
+{
+	"general1": {
+		"articles": [
+			{
+				"source": {
+					"id": "cbs-news",
+					"name": "CBS News"
+				},
+				"author": "Haley Ott",
+				"title": "Israel says 4 hostages, including Noa Argamani, rescued in Gaza operation - CBS News",
+				"description": "Four Israeli hostages taken 8 months ago by Hamas into Gaza were rescued alive during a raid on the Nuseirat camp in central Gaza, the IDF says.",
+				"url": "https://www.cbsnews.com/news/israel-hostages-rescued-hamas-gaza-noa-argamani-almog-meir-jan-andrey-kozlov-shlomi-ziv/",
+				"urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/06/08/f055f356-41d7-452f-b843-13be0aef8cf0/thumbnail/1200x630/c6162cdb3711527b406bdbc011d661eb/whatsapp-image-2024-06-08-at-15-06-07.jpg?v=94cbb61397dbf7eca3740fa55510ba88",
+				"publishedAt": "2024-06-09T00:05:32Z",
+				"content": "Four Israeli hostages taken by Hamas from a music festival during the group's October 7 terrorist attack were rescued alive Saturday during a raid on the Nuseirat camp in central Gaza, the Israel Def… [+5197 chars]"
+			},
+			{
+				"source": {
+					"id": "ign",
+					"name": "IGN"
+				},
+				"author": "Michael Cripe",
+				"title": "Tokyo Vice Canceled on Max, but Producers Say 'There's More Story to Tell' - IGN",
+				"description": "Tokyo Vice has been canceled on Max after two seasons, but its executive producers tease that there's still \"more story to tell.\"",
+				"url": "https://www.ign.com/articles/tokyo-vice-canceled-on-max-but-producers-say-theres-more-story-to-tell",
+				"urlToImage": "https://assets-prd.ignimgs.com/2024/06/08/tokyo-vice-1717885854964.png?width=1280",
+				"publishedAt": "2024-06-08T23:01:07Z",
+				"content": "Maxs Tokyo Vice is hanging up the badge after two seasons, but its creator still has a desire to tell more of the story.\r\nAs reported by Variety, the noir thrillers cancelation was confirmed by Max o… [+2614 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "WABC-TV"
+				},
+				"author": null,
+				"title": "Belmont Stakes: Dornoch crosses finish line first at Belmont Stakes - WABC-TV",
+				"description": "Dornoch hugged the rail ridden by Luis Saez and held off Mindframe to be the best in a field of 10 that included Kentucky Derby winner Mystik Dan and Preakness winner Seize the Grey.",
+				"url": "https://abc7ny.com/post/belmont-stakes-horse-racing-history-kinds-being-made/14926141/",
+				"urlToImage": "https://cdn.abcotvs.com/dip/images/14926529_060824-dornach-belmont-stakes.jpg?w=1600",
+				"publishedAt": "2024-06-08T22:48:44Z",
+				"content": "SARATOGA SPRINGS, New York -- When Luis Saez first rode Dornoch at Saratoga Race Course last summer, he told trainer Danny Gargan, \"You have the Derby winner.\"\r\nThat did not come true, but Dornoch ma… [+2127 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "KSL.com"
+				},
+				"author": "https://www.facebook.com/kslcom/",
+				"title": "Bag of cash doesn't stop jurors from convicting 5 of 7 defendants in $40M fraud scheme - KSL.com",
+				"description": "A jury has convicted five Minnesota residents and acquitted two others in a scheme to exploit the COVID-19 pandemic to steal more than $40 million from a program meant to feed children.",
+				"url": "https://www.ksl.com/article/51036735/bag-of-cash-doesnt-stop-jurors-from-convicting-5-of-7-defendants-in-40m-fraud-scheme",
+				"urlToImage": "https://img.ksl.com/slc/2994/299400/29940082.jpeg?filter=kslv2/responsive_story_lg",
+				"publishedAt": "2024-06-08T22:48:17Z",
+				"content": "MINNEAPOLIS A jury convicted five Minnesota residents and acquitted two others on Friday for their roles in a scheme to steal more than $40 million from a program that was supposed to feed children d… [+4523 chars]"
+			},
+			{
+				"source": {
+					"id": "the-washington-post",
+					"name": "The Washington Post"
+				},
+				"author": "Ben Golliver",
+				"title": "Caitlin Clark won’t be selected to play for Team USA at Paris Olympics - The Washington Post",
+				"description": "The decision to omit Clark from a decorated roster means women’s basketball’s rising star will not appear in a major showcase for the sport.",
+				"url": "https://www.washingtonpost.com/sports/olympics/2024/06/08/caitlin-clark-paris-olympics/",
+				"urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/D4TD2WLRXAN67PHR3L2I5H5B2I.JPG&w=1440",
+				"publishedAt": "2024-06-08T22:04:41Z",
+				"content": "The brightest rising star in womens basketball wont get the chance to take center stage at the Paris Olympics this summer.\r\nUSA Basketball has decided not to include Caitlin Clark on its 12-player ro… [+3086 chars]"
+			}
+		]
+	},
+	"general2": {
+		"articles": [
+			{
+				"source": {
+					"id": "associated-press",
+					"name": "Associated Press"
+				},
+				"author": "RODRIQUE NGOWI, PATRICK WHITTLE",
+				"title": "They're on the edge of glory, and the edge of an art museum, as cliff divers come to Boston - The Associated Press",
+				"description": "Cliff diving’s marquee event thrilled spectators in Boston as the Red Bull Cliff Diving World Series made the 100th stop in its history. Participants plunged from up to 90 feet in the air from a waterfront art museum into the harbor below on Saturday. The Bos…",
+				"url": "https://apnews.com/article/cliff-diving-world-series-boston-8dca27fc9394f04fb2107393122e8848",
+				"urlToImage": "https://dims.apnews.com/dims4/default/0291088/2147483647/strip/true/crop/2910x1637+0+152/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2a%2Ff6%2F166e79f73f3b5f05645baadd4178%2F92711769887540228a085503ae597686",
+				"publishedAt": "2024-06-08T23:38:00Z",
+				"content": "BOSTON (AP) Rhiannan Iffland stepped to the edge of a platform nearly seven stories above Boston Harbor, thousands of cheering fans packed onto docks, roofs and sidewalks below, and soared through th… [+1897 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "Yahoo Entertainment"
+				},
+				"author": null,
+				"title": "USMNT ripped apart by Colombia, fails another high-profile test on home turf - Yahoo Sports",
+				"description": null,
+				"url": "https://sports.yahoo.com/usmnt-ripped-apart-by-colombia-fails-another-high-profile-test-on-home-turf-233247341.html",
+				"urlToImage": null,
+				"publishedAt": "2024-06-08T23:32:47Z",
+				"content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+			},
+			{
+				"source": {
+					"id": "espn",
+					"name": "ESPN"
+				},
+				"author": null,
+				"title": "Dornoch, ex-MLB star Werth's colt, upsets Belmont at Saratoga - ESPN",
+				"description": "Dornoch, who is owned in part by former MLB All-Star Jayson Werth, pulled off a 17-1 upset in the Belmont Stakes held at Saratoga on Saturday.",
+				"url": "https://www.espn.com/horse-racing/story/_/id/40307580/dornoch-ex-mlb-star-werth-colt-wins-belmont-saratoga",
+				"urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0608%2Fr1343453_1296x729_16%2D9.jpg",
+				"publishedAt": "2024-06-08T22:59:00Z",
+				"content": "SARATOGA SPRINGS, N.Y. -- When Luis Saez first rode Dornoch at Saratoga Race Course last summer, he told trainer Danny Gargan, \"You have the Derby winner.\"\r\nThat did not come true, but Dornoch made g… [+3367 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "KABC-TV"
+				},
+				"author": null,
+				"title": "Ippei Mizuhara, Shohei Ohtani's former interpreter, banned from delivering for Uber Eats - KABC-TV",
+				"description": "Ippei Mizuhara, the former interpreter for Dodgers star Shohei Ohtani who pleaded guilty to bank and tax fraud for stealing nearly $17 million from the athlete's bank account, has lost another job.",
+				"url": "https://abc7.com/post/ippei-mizuhara-shohei-ohtanis-ex-interpreter-banned-delivering/14926431/",
+				"urlToImage": "https://cdn.abcotvs.com/dip/images/14926456_ippei-uber-eats-TN-img.jpg?w=1600",
+				"publishedAt": "2024-06-08T22:42:37Z",
+				"content": "LOS ANGELES (KABC) -- Ippei Mizuhara, the former interpreter for Los Angeles Dodgers star Shohei Ohtani who pleaded guilty to bank and tax fraud for stealing nearly $17 million from the athlete's ban… [+867 chars]"
+			},
+			{
+				"source": {
+					"id": "nhl-news",
+					"name": "NHL News"
+				},
+				"author": null,
+				"title": "10 things learned from 2024 NHL Scouting Combine - NHL.com",
+				"description": "Top prospect Celebrini compared to Bedard; Lindstrom, Parekh aim to inspire; Iginla meets with dad's former team",
+				"url": "https://www.nhl.com/news/10-things-learned-at-2024-nhl-scouting-combine",
+				"urlToImage": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/ib9q7igbathmhpaqcbts.png",
+				"publishedAt": "2024-06-08T22:25:03Z",
+				"content": "Prideful prospects\r\nLindstrom and defenseman Zayne Parekh, each considered a top-10 pick in the 2024 draft, wish to be role models to inspire others of color to play hockey.\r\n\"For me, I'm just trying… [+5768 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "MMA Fighting"
+				},
+				"author": "Bryan Tucker",
+				"title": "UFC Louisville Results: Cannonier vs. Imavov - MMA Fighting",
+				"description": "Get UFC Louisville results for the Cannonier vs. Imavov event Saturday night.",
+				"url": "https://www.mmafighting.com/2024/6/8/24173652/ufc-louisville-results-cannonier-vs-imavov",
+				"urlToImage": "https://cdn.vox-cdn.com/thumbor/ADnxiJPkIbE6FwrVKRFO0Ncsgiw=/0x0:6521x3414/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25481756/2156508350.jpg",
+				"publishedAt": "2024-06-08T22:18:09Z",
+				"content": "MMA Fighting has UFC Louisville results for the Cannonier vs. Imanov fight card, a live blog for the main event, and more from the KFC Yum! Center in Louisville, Ky., on Saturday night.\r\nIn the main … [+1228 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "Motorsport.com"
+				},
+				"author": "Joey Barnes",
+				"title": "Power compares Canapino controversy to past incident with Montoya - Motorsport.com",
+				"description": "Team Penske’s Will Power was reminded of an experience he once had with supporters of Juan Pablo Montoya when asked about the ongoing controversy involving Juncos Hollinger Racing’s Agustin Canapino.",
+				"url": "https://www.motorsport.com/indycar/news/power-canapino-online-abuse-montoya-passionate/10621162/",
+				"urlToImage": "https://cdn-7.motorsport.com/images/amp/Y99D9aqY/s6/will-power-team-penske-chevrol.jpg",
+				"publishedAt": "2024-06-08T22:12:53Z",
+				"content": "Power tried to remain positive in his assessment, remarking on the cultural differences and how emotionally-charged the response can be from fans in that part of the world.\r\nThey're pretty passionate… [+2988 chars]"
+			},
+			{
+				"source": {
+					"id": "the-washington-post",
+					"name": "The Washington Post"
+				},
+				"author": "Ben Golliver",
+				"title": "Caitlin Clark won’t be selected to play for Team USA at Paris Olympics - The Washington Post",
+				"description": "The decision to omit Clark from a decorated roster means women’s basketball’s rising star will not appear in a major showcase for the sport.",
+				"url": "https://www.washingtonpost.com/sports/olympics/2024/06/08/caitlin-clark-paris-olympics/",
+				"urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/D4TD2WLRXAN67PHR3L2I5H5B2I.JPG&w=1440",
+				"publishedAt": "2024-06-08T22:04:41Z",
+				"content": "The brightest rising star in womens basketball wont get the chance to take center stage at the Paris Olympics this summer.\r\nUSA Basketball has decided not to include Caitlin Clark on its 12-player ro… [+3086 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "New York Post"
+				},
+				"author": "Phil Mushnick",
+				"title": "MLB avoids disaster with Yankees-Dodgers streaming decision - New York Post ",
+				"description": "Good things come to those who wait. At least to those who wait it out.",
+				"url": "https://nypost.com/2024/06/08/sports/mlb-avoids-disaster-with-yankees-dodgers-streaming-decision/",
+				"urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/06/newspress-collage-ml4ttsea0-1717881092571.jpg?quality=75&strip=all&1717866762&w=1024",
+				"publishedAt": "2024-06-08T21:33:00Z",
+				"content": "Good things come to those who wait. At least to those who wait it out.\r\nMLB on Friday night was forced to show the Dodgers-Yankees to the nations two largest TV markets on both YES and L.A.s cable ne… [+7497 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "[Removed]"
+				},
+				"author": null,
+				"title": "[Removed]",
+				"description": "[Removed]",
+				"url": "https://removed.com",
+				"urlToImage": null,
+				"publishedAt": "1970-01-01T00:00:00Z",
+				"content": "[Removed]"
+			}
+		]
+	},
+	"sports": {
+		"articles": [
+			{
+				"source": {
+					"id": "associated-press",
+					"name": "Associated Press"
+				},
+				"author": "RODRIQUE NGOWI, PATRICK WHITTLE",
+				"title": "They're on the edge of glory, and the edge of an art museum, as cliff divers come to Boston - The Associated Press",
+				"description": "Cliff diving’s marquee event thrilled spectators in Boston as the Red Bull Cliff Diving World Series made the 100th stop in its history. Participants plunged from up to 90 feet in the air from a waterfront art museum into the harbor below on Saturday. The Bos…",
+				"url": "https://apnews.com/article/cliff-diving-world-series-boston-8dca27fc9394f04fb2107393122e8848",
+				"urlToImage": "https://dims.apnews.com/dims4/default/0291088/2147483647/strip/true/crop/2910x1637+0+152/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2a%2Ff6%2F166e79f73f3b5f05645baadd4178%2F92711769887540228a085503ae597686",
+				"publishedAt": "2024-06-08T23:38:00Z",
+				"content": "BOSTON (AP) Rhiannan Iffland stepped to the edge of a platform nearly seven stories above Boston Harbor, thousands of cheering fans packed onto docks, roofs and sidewalks below, and soared through th… [+1897 chars]"
+			},
+			{
+				"source": {
+					"id": "espn",
+					"name": "ESPN"
+				},
+				"author": null,
+				"title": "Dornoch, ex-MLB star Werth's colt, upsets Belmont at Saratoga - ESPN",
+				"description": "Dornoch, who is owned in part by former MLB All-Star Jayson Werth, pulled off a 17-1 upset in the Belmont Stakes held at Saratoga on Saturday.",
+				"url": "https://www.espn.com/horse-racing/story/_/id/40307580/dornoch-ex-mlb-star-werth-colt-wins-belmont-saratoga",
+				"urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0608%2Fr1343453_1296x729_16%2D9.jpg",
+				"publishedAt": "2024-06-08T22:59:00Z",
+				"content": "SARATOGA SPRINGS, N.Y. -- When Luis Saez first rode Dornoch at Saratoga Race Course last summer, he told trainer Danny Gargan, \"You have the Derby winner.\"\r\nThat did not come true, but Dornoch made g… [+3367 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "KABC-TV"
+				},
+				"author": null,
+				"title": "Ippei Mizuhara, Shohei Ohtani's former interpreter, banned from delivering for Uber Eats - KABC-TV",
+				"description": "Ippei Mizuhara, the former interpreter for Dodgers star Shohei Ohtani who pleaded guilty to bank and tax fraud for stealing nearly $17 million from the athlete's bank account, has lost another job.",
+				"url": "https://abc7.com/post/ippei-mizuhara-shohei-ohtanis-ex-interpreter-banned-delivering/14926431/",
+				"urlToImage": "https://cdn.abcotvs.com/dip/images/14926456_ippei-uber-eats-TN-img.jpg?w=1600",
+				"publishedAt": "2024-06-08T22:42:37Z",
+				"content": "LOS ANGELES (KABC) -- Ippei Mizuhara, the former interpreter for Los Angeles Dodgers star Shohei Ohtani who pleaded guilty to bank and tax fraud for stealing nearly $17 million from the athlete's ban… [+867 chars]"
+			},
+			{
+				"source": {
+					"id": "nhl-news",
+					"name": "NHL News"
+				},
+				"author": null,
+				"title": "10 things learned from 2024 NHL Scouting Combine - NHL.com",
+				"description": "Top prospect Celebrini compared to Bedard; Lindstrom, Parekh aim to inspire; Iginla meets with dad's former team",
+				"url": "https://www.nhl.com/news/10-things-learned-at-2024-nhl-scouting-combine",
+				"urlToImage": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/ib9q7igbathmhpaqcbts.png",
+				"publishedAt": "2024-06-08T22:25:03Z",
+				"content": "Prideful prospects\r\nLindstrom and defenseman Zayne Parekh, each considered a top-10 pick in the 2024 draft, wish to be role models to inspire others of color to play hockey.\r\n\"For me, I'm just trying… [+5768 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "MMA Fighting"
+				},
+				"author": "Bryan Tucker",
+				"title": "UFC Louisville Results: Cannonier vs. Imavov - MMA Fighting",
+				"description": "Get UFC Louisville results for the Cannonier vs. Imavov event Saturday night.",
+				"url": "https://www.mmafighting.com/2024/6/8/24173652/ufc-louisville-results-cannonier-vs-imavov",
+				"urlToImage": "https://cdn.vox-cdn.com/thumbor/ADnxiJPkIbE6FwrVKRFO0Ncsgiw=/0x0:6521x3414/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25481756/2156508350.jpg",
+				"publishedAt": "2024-06-08T22:18:09Z",
+				"content": "MMA Fighting has UFC Louisville results for the Cannonier vs. Imanov fight card, a live blog for the main event, and more from the KFC Yum! Center in Louisville, Ky., on Saturday night.\r\nIn the main … [+1228 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "Motorsport.com"
+				},
+				"author": "Joey Barnes",
+				"title": "Power compares Canapino controversy to past incident with Montoya - Motorsport.com",
+				"description": "Team Penske’s Will Power was reminded of an experience he once had with supporters of Juan Pablo Montoya when asked about the ongoing controversy involving Juncos Hollinger Racing’s Agustin Canapino.",
+				"url": "https://www.motorsport.com/indycar/news/power-canapino-online-abuse-montoya-passionate/10621162/",
+				"urlToImage": "https://cdn-7.motorsport.com/images/amp/Y99D9aqY/s6/will-power-team-penske-chevrol.jpg",
+				"publishedAt": "2024-06-08T22:12:53Z",
+				"content": "Power tried to remain positive in his assessment, remarking on the cultural differences and how emotionally-charged the response can be from fans in that part of the world.\r\nThey're pretty passionate… [+2988 chars]"
+			},
+			{
+				"source": {
+					"id": "the-washington-post",
+					"name": "The Washington Post"
+				},
+				"author": "Ben Golliver",
+				"title": "Caitlin Clark won’t be selected to play for Team USA at Paris Olympics - The Washington Post",
+				"description": "The decision to omit Clark from a decorated roster means women’s basketball’s rising star will not appear in a major showcase for the sport.",
+				"url": "https://www.washingtonpost.com/sports/olympics/2024/06/08/caitlin-clark-paris-olympics/",
+				"urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/D4TD2WLRXAN67PHR3L2I5H5B2I.JPG&w=1440",
+				"publishedAt": "2024-06-08T22:04:41Z",
+				"content": "The brightest rising star in womens basketball wont get the chance to take center stage at the Paris Olympics this summer.\r\nUSA Basketball has decided not to include Caitlin Clark on its 12-player ro… [+3086 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "New York Post"
+				},
+				"author": "Phil Mushnick",
+				"title": "MLB avoids disaster with Yankees-Dodgers streaming decision - New York Post ",
+				"description": "Good things come to those who wait. At least to those who wait it out.",
+				"url": "https://nypost.com/2024/06/08/sports/mlb-avoids-disaster-with-yankees-dodgers-streaming-decision/",
+				"urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/06/newspress-collage-ml4ttsea0-1717881092571.jpg?quality=75&strip=all&1717866762&w=1024",
+				"publishedAt": "2024-06-08T21:33:00Z",
+				"content": "Good things come to those who wait. At least to those who wait it out.\r\nMLB on Friday night was forced to show the Dodgers-Yankees to the nations two largest TV markets on both YES and L.A.s cable ne… [+7497 chars]"
+			}
+		]
+	},
+	"business": {
+		"articles": [
+			{
+				"source": {
+					"id": null,
+					"name": "[Removed]"
+				},
+				"author": null,
+				"title": "[Removed]",
+				"description": "[Removed]",
+				"url": "https://removed.com",
+				"urlToImage": null,
+				"publishedAt": "1970-01-01T00:00:00Z",
+				"content": "[Removed]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "Cointelegraph"
+				},
+				"author": "Cointelegraph",
+				"title": "Roaring Kitty's GME shares hit $1B, BTC open interest soars, and other news: Hodler's Digest, June 2-8 - Cointelegraph",
+				"description": null,
+				"url": "https://cointelegraph.com/magazine/roaring-kittys-shares-1b-gme-rally-btc-open-interest-soars-hodlers-digest-june-2-8/",
+				"urlToImage": null,
+				"publishedAt": "2024-06-08T20:36:48Z",
+				"content": null
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "Fox Business"
+				},
+				"author": "Andrea Vacchiano",
+				"title": "New luxury airline for dogs faces lawsuit shortly after its first flight - Fox Business",
+				"description": "A new luxury airline called BARK Air, which has been operating out of Westchester County Airport in New York, was recently sued for allegedly violating airport rules.",
+				"url": "https://www.foxbusiness.com/lifestyle/new-luxury-airline-dogs-faces-lawsuit-shortly-first-flight",
+				"urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/06/0/0/AIRLINE-1.png?ve=1&tl=1",
+				"publishedAt": "2024-06-08T20:15:00Z",
+				"content": "A brand-new luxury airline designed for dogs was recently sued mere days after its inaugural flight.\r\nBARK Air, which has been operating out of New York's Westchester County Airport, was handed a law…"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "KTLA Los Angeles"
+				},
+				"author": "Lauren Irwin",
+				"title": "Kia recalls more than 460,000 SUVs over potential fire risk - KTLA Los Angeles",
+				"description": "Owners of recalled vehicles will be notified by mail starting July 30 and can contact Kia customer service for more information.",
+				"url": "https://ktla.com/news/nationworld/kia-recalls-more-than-460000-suvs-over-potential-fire-risk/",
+				"urlToImage": "https://ktla.com/wp-content/uploads/sites/4/2024/06/AP20045095305354-e1717866190654.jpg?w=1280",
+				"publishedAt": "2024-06-08T20:00:57Z",
+				"content": "Kia America is recalling more than 460,000 Telluride SUVs and urging people to park their cars away from structures that could catch fire.\r\nThe National Highway Traffic Safety Administration (NHTSA) … [+1143 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "Yahoo Entertainment"
+				},
+				"author": null,
+				"title": "T.J.Maxx Just Announced a Controversial Change & Shoppers Are Not Happy - Yahoo! Voices",
+				"description": null,
+				"url": "https://www.yahoo.com/news/t-j-maxx-just-announced-194500509.html",
+				"urlToImage": null,
+				"publishedAt": "2024-06-08T19:45:00Z",
+				"content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+			},
+			{
+				"source": {
+					"id": "cnn",
+					"name": "CNN"
+				},
+				"author": "Nathaniel Meyersohn",
+				"title": "The forgotten racial history of Red Lobster - CNN",
+				"description": "Red Lobster has built a loyal following with Black diners.",
+				"url": "https://www.cnn.com/2024/06/08/business/red-lobster-black-history/index.html",
+				"urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-479724493.jpg?c=16x9&q=w_800,c_fill",
+				"publishedAt": "2024-06-08T18:41:00Z",
+				"content": "Communities around the country are losing cheddar bay biscuits and all-you-can-eat seafood deals as troubled Red Lobster closes around 100 US restaurants, with up to 135 more closures looming.\r\nBut R… [+6444 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "SpaceNews"
+				},
+				"author": "Jeff Foust",
+				"title": "Virgin Galactic conducts final VSS Unity commercial suborbital spaceflight - SpaceNews",
+				"description": "Virgin Galactic’s VSS Unity spaceplane conducted its final commercial suborbital mission June 8, carrying a Turkish researcher and three private astronauts.",
+				"url": "https://spacenews.com/virgin-galactic-conducts-final-vss-unity-commercial-suborbital-spaceflight/",
+				"urlToImage": "https://spacenews.com/wp-content/uploads/2024/06/galactic07-takeoff.jpg",
+				"publishedAt": "2024-06-08T17:01:41Z",
+				"content": "Updated 6:15 p.m. Eastern with comments from post-flight press conference.\r\nSPACEPORT AMERICA, N.M. Virgin Galactics VSS Unity spaceplane conducted its final commercial mission June 8, taking a Turki… [+5461 chars]"
+			},
+			{
+				"source": {
+					"id": "associated-press",
+					"name": "Associated Press"
+				},
+				"author": "CORA LEWIS",
+				"title": "Credit card delinquencies are rising. Here's what to do if you're at risk - The Associated Press",
+				"description": "Seriously overdue credit card debt is at the highest level in more than a decade, and people 35 and under are struggling more than other age groups to pay their bills. The share of credit card debt that’s more than 90 days overdue rose to 10.7% during the fir…",
+				"url": "https://apnews.com/article/credit-card-delinquency-nonprofit-counselor-c8197a70d38a3c5605f40fc1f4f775bb",
+				"urlToImage": "https://dims.apnews.com/dims4/default/071fdc1/2147483647/strip/true/crop/3000x1688+0+156/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd8%2Faf%2F28dd12b0b2f60731a89e6fb0afed%2Fbe114a4664a54db09b0150a3a2f1478d",
+				"publishedAt": "2024-06-08T16:52:00Z",
+				"content": "NEW YORK (AP) Seriously overdue credit card debt is at the highest level in more than a decade, and people 35 and under are struggling more than other age groups to pay their bills.\r\nThe share of cre… [+5227 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "fox5sandiego.com"
+				},
+				"author": "Amber Coakley",
+				"title": "These San Diego-area cities are among ‘hottest housing markets’ in US, according to Realtor.com - FOX 5 San Diego",
+				"description": "Some California towns are experiencing fast moving supply and rising demand when it comes to the housing market, according to a popular real estate site.",
+				"url": "https://fox5sandiego.com/news/local-news/these-california-cities-are-among-hottest-housing-markets-in-us-according-to-realtor-com/",
+				"urlToImage": "https://fox5sandiego.com/wp-content/uploads/sites/15/2024/06/AdobeStock_485514682.jpeg?w=1280",
+				"publishedAt": "2024-06-08T16:12:59Z",
+				"content": "SAN DIEGO (FOX 5/KUSI) — Some California towns are experiencing fast moving supply and rising demand when it comes to the housing market, according to a popular real estate site. \r\nIn fact, 19 Golden…"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "CNBC"
+				},
+				"author": "Rebecca Picciotto",
+				"title": "DOJ settles CityMD Covid fraud allegations for $12 million - CNBC",
+				"description": "CityMD is backed by Walgreens Boots Alliance and operates over 100 walk-in urgent care practices in New York and New Jersey.",
+				"url": "https://www.cnbc.com/2024/06/08/doj-citymd-covid-fraud-settlement-12-million.html",
+				"urlToImage": "https://image.cnbcfm.com/api/v1/image/106991569-16400068632021-12-19t191311z_1798941694_rc2qhr9tbi8o_rtrmadp_0_health-coronavirus-usa-variant.jpeg?v=1640006934&w=1920&h=1080",
+				"publishedAt": "2024-06-08T15:17:27Z",
+				"content": "Walgreens-backed CityMD will pay $12.04 million to settle Covid fraud allegations brought by the Department of Justice, the department announced on Friday.\r\nFrom February 2020 to April 2022, CityMD, …"
+			}
+		]
+	},
+	"technology": {
+		"articles": [
+			{
+				"source": {
+					"id": null,
+					"name": "YouTube"
+				},
+				"author": null,
+				"title": "Johnny Rico Recruits Roughnecks For Starship Troopers Extermination | IGN Live 2024 - IGN",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=Zj-JjV0HK2A",
+				"urlToImage": null,
+				"publishedAt": "2024-06-08T21:35:00Z",
+				"content": "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "9to5Mac"
+				},
+				"author": "Ryan Christoffel",
+				"title": "iOS 18: Control Center going multi-page is a big deal for users - 9to5Mac",
+				"description": "Apple has big plans for Control Center in iOS 18, including the ability to create multiple custom pages of controls for your iPhone.",
+				"url": "https://9to5mac.com/2024/06/08/new-control-center-in-ios-18-will-have-multiple-pages-heres-what-that-means/",
+				"urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/06/control-center-ios.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+				"publishedAt": "2024-06-08T18:00:00Z",
+				"content": "iOS 18 will be fully unveiled this Monday at the WWDC keynote. According to one of the late breaking rumors, the iPhone update will introduce a redesigned Control Center.\r\nOne core feature of the new… [+3359 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "CNET"
+				},
+				"author": null,
+				"title": "iPhone 16: The Most Exciting Rumors - CNET",
+				"description": "There are hints that Apple has big changes in store for the iPhone 16. Here are all the important rumors about the next iPhone, and the leaks.",
+				"url": "https://www.cnet.com/tech/mobile/iphone-16-the-most-exciting-rumors/",
+				"urlToImage": "https://www.cnet.com/a/img/resize/c52697d87d43518d2a1e6300631f130b2256a806/hub/2024/04/12/25866c21-4cba-4b22-b896-5add650cdc64/iphone-16-rumors-2-00000.jpg?auto=webp&fit=crop&height=675&width=1200",
+				"publishedAt": "2024-06-08T17:00:00Z",
+				"content": "It's been more than nine months since the iPhone 15 launched, and as Apple's Worldwide Developers Conference approaches on June 10, we wonder what goodies the next iPhone will bring.\r\nWe've heard whi… [+8858 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "TechSpot"
+				},
+				"author": "Zo Ahmed",
+				"title": "Intel's new Gaudi 3 accelerators massively undercut Nvidia GPUs as AI race heats up - TechSpot",
+				"description": "Pricing for products like these is typically kept hidden from the public, but Intel has bucked the trend and provided some official figures. The flagship Gaudi 3...",
+				"url": "https://www.techspot.com/news/103313-intel-new-gaudi-3-accelerators-massively-undercut-nvidia.html",
+				"urlToImage": "https://www.techspot.com/images2/news/bigimage/2024/06/2024-06-08-image.jpg",
+				"publishedAt": "2024-06-08T16:09:00Z",
+				"content": "What just happened? Intel threw down the gauntlet against Nvidia in the heated battle for AI hardware supremacy. At Computex this week, CEO Pat Gelsinger unveiled pricing for Intel's next-gen Gaudi 2… [+2943 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "PCGamesN"
+				},
+				"author": "Issy van der Velde",
+				"title": "Disturbingly realistic bodycam game has mixed reviews, lots of players - PCGamesN",
+				"description": "Despite getting mixed reviews, the new early access ultra-realistic bodycam game, Bodycam, has lots of players on Steam right now.",
+				"url": "https://www.pcgamesn.com/bodycam/mixed-reviews-many-players",
+				"urlToImage": "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/06/bodycam-steam-sale.jpg",
+				"publishedAt": "2024-06-08T15:31:32Z",
+				"content": "Ultra-realistic shooter Bodycam, shown from the POV of the titular cameras, launched in early access yesterday. Despite its mixed reviews, it’s sitting at a relatively high concurrent player count of… [+2069 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "UploadVR"
+				},
+				"author": "Ian Hamilton",
+				"title": "Camouflaj Tests Quest 3's Power For Batman: Arkham Shadow - UploadVR",
+				"description": "Batman casts a shadow in real-time across enemies in Arkham Shadow on Quest 3.",
+				"url": "https://www.uploadvr.com/batman-arkham-shadow-quest-3/",
+				"urlToImage": "https://www.uploadvr.com/content/images/size/w1200/2024/06/Announce_BatmanvsGoons3.png",
+				"publishedAt": "2024-06-08T13:13:28Z",
+				"content": "Developers at Camouflaj are spending a \"decent amount of the CPU and the GPU\" of Quest 3 to render real-time shadows \"at a crisp level\" for Batman: Arkham Shadow.\r\nCamouflaj founder Ryan Payton told … [+4311 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "Forbes"
+				},
+				"author": "Paul Tassi",
+				"title": "Destiny 2's 10 Year Finale Mission Is Live Now, A Perfect Ending - Forbes",
+				"description": "Desitny 2’s Final Shape’s raid has been beaten, and immediately, Bungie unleashed the final battle against The Witness that all players can participate in.",
+				"url": "https://www.forbes.com/sites/paultassi/2024/06/08/destiny-2s-10-year-finale-mission-is-live-now-a-perfect-ending/",
+				"urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6664573e5d21cb9b0b5cecaf/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+				"publishedAt": "2024-06-08T13:08:14Z",
+				"content": "Destiny 2\r\nBungie\r\nDesitny 2s Final Shapes raid has been beaten, and immediately, Bungie unleashed the final battle against The Witness that all players can participate in. The result is a finale tha… [+2558 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "YouTube"
+				},
+				"author": null,
+				"title": "Summer Game Fest 2024: Giant Bomb Talks Over - Giant Bomb",
+				"description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+				"url": "https://www.youtube.com/watch?v=eTg4xIXJyhg",
+				"urlToImage": null,
+				"publishedAt": "2024-06-08T13:00:42Z",
+				"content": null
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "Forbes"
+				},
+				"author": "Paul Tassi",
+				"title": "Still No One Has Beaten Destiny 2's Final Shape Raid, Now Its Longest Ever (Update: Someone Did) - Forbes",
+				"description": "Good morning everyone, no, no one has beaten Destiny 2’s Last Wish raid yet, Salvation’s Edge, which has just past The Last Wish in completion time.",
+				"url": "https://www.forbes.com/sites/paultassi/2024/06/08/still-no-one-has-beaten-destiny-2s-final-shape-raid-now-its-longest-ever/",
+				"urlToImage": "https://imageio.forbes.com/specials-images/imageserve/666446ed299923d94e2c16c7/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+				"publishedAt": "2024-06-08T12:01:56Z",
+				"content": "Destiny 2\r\n@strawhatkey_\r\nUpdate: A team has now claimed to beat the raid, off-stream. Team Parabellum, and unknown squad. Bungie is confirming.\r\nOriginal article follows:\r\nGood morning everyone, no,… [+3397 chars]"
+			},
+			{
+				"source": {
+					"id": null,
+					"name": "YouTube"
+				},
+				"author": null,
+				"title": "The Fujifilm X100VI Is the Perfect iPhone Companion - CNET",
+				"description": "I used the Fujifilm X100VI over three weeks while traveling between New York and San Francisco. I viewed the X100 through the perspective of someone who mast...",
+				"url": "https://www.youtube.com/watch?v=K9AqqECp7lk",
+				"urlToImage": "https://i.ytimg.com/vi/K9AqqECp7lk/maxresdefault.jpg",
+				"publishedAt": "2024-06-08T12:00:30Z",
+				"content": null
+			}
+		]
+	}
+}

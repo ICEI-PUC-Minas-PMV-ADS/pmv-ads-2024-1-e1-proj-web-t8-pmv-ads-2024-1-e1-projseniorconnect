@@ -12,10 +12,10 @@ let items = document.querySelectorAll('.carousel .carousel-item')
 const apiKey = "fa8c2ed8a3ae47d38553a237f062de74"
 const fetchData = async (category, pageSize) => {
     const url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&pageSize=${pageSize}&apiKey=${apiKey}`
-    const data = await fetch(url);
+    const data = await fetch("../code_js/noticias.json");
+    // const data = await fetch(url);
     const response = await data.json();
-    console.log(response);
-    const result = response.articles.filter(article => article.urlToImage != null);
+    const result = response[category].articles.filter(article => article.urlToImage != null);
     return result;
 }
 
@@ -27,7 +27,9 @@ const add_breakingNews = (data) => {
     breakingNews_desc.innerHTML = `${data[0].description}`
 }
 
-fetchData("general", 5).then(add_breakingNews)
+fetchData("general1", 5).then(add_breakingNews)
+// fetchData("general", 5).then(add_breakingNews)
+
 
 const add_topNews = (data) => {
     let html = ""
@@ -51,7 +53,8 @@ const add_topNews = (data) => {
     topNews.innerHTML = html
 }
 
-fetchData("general", 15).then(add_topNews)
+fetchData("general2", 15).then(add_topNews)
+// fetchData("general", 15).then(add_topNews)
 
 //NEW CODE
 
@@ -70,6 +73,7 @@ items.forEach((el) => {
 })
 
 const add_sportsNews = (data) => {
+    console.log(JSON.stringify(data));
     let html = ""
     var sport = 1;
     data.forEach((element) => {
