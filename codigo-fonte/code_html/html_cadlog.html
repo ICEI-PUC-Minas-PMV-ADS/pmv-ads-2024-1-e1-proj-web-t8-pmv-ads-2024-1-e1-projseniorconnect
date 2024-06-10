@@ -31,7 +31,7 @@
             <button type="submit" onclick="saveData()">Cadastrar</button>
         </form>
 
-        <form id="signin">
+        <form id="signin" onsubmit="return saveData2()">
             <input type="email" id="email2" placeholder="Digite seu Email" required />
             <i class="fas fa-envelope iEmail2"></i>
             <input type="password" id="password3" placeholder="Digite sua Senha" required />
@@ -40,7 +40,7 @@
                 <input type="checkbox" />
                 <span>Lembrar de mim</span>
             </div>
-            <button type="submit" onclick="saveData2()">Entrar</button>
+            <button type="submit">Entrar</button>
         </form>
     </div>
 

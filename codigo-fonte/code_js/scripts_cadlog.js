@@ -69,19 +69,19 @@ function saveData2(){
     //user_record=JSON.parse(localStorage.getItem("users"))?JSON.parse(localStorage.getItem("users")):[]
     let user_record = JSON.parse(localStorage.getItem("users")) || [];
     if(user_record.some((v)=>{
-        return v.email==email2 && v.password==password3
+        return v.email==email2 && v.password==password3;
     })) {
-        alert("Login Successfull")
         let current_user=user_record.filter((v)=>{
-            return v.email==email2 && v.password==password3
-        })[0]
-
+            return v.email==email2 && v.password==password3;
+        })[0];
         localStorage.setItem("name",current_user.name);
         localStorage.setItem("email",current_user.email);
-        window.location.href="html_perfil.html" // ARRUMAR AQUI -> ARRUMAR A PASTA DAR DEPLOY NOVAMENTE
+         // ARRUMAR AQUI -> ARRUMAR A PASTA DAR DEPLOY NOVAMENTE
+        window.location.replace("html_perfil.html");
     }
     else {
-        alert("Login Fail")
+        alert("Login Fail");
     }
+    return false;
 
 }

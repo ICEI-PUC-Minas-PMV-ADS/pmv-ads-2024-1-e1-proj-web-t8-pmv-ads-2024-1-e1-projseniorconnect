@@ -63,13 +63,13 @@
                                 <label for="userName">Nome do Usuário</label>
                                 <input type="text" class="form-control" id="userName" value="" readonly>
                                 <script>
-                                    // Recupera os dados do usuário logado do localStorage
-                                    let userData = JSON.parse(localStorage.getItem("usuario_logado"));
+                                    
+                                    const usuario_logado_name = localStorage.getItem("name")
 
                                     // Verifica se os dados do usuário existem e se o email está presente
-                                    if (userData && userData.name) {
+                                    if (usuario_logado_name) {
                                         // Exibe o email do usuário no elemento com id "userName"
-                                        document.getElementById("userName").value = userData.name;
+                                        document.getElementById("userName").value = usuario_logado_name;
                                     } else {
                                         // Se os dados do usuário ou o email estiverem ausentes, exibe uma mensagem de erro
                                         document.getElementById("userName").value = "Erro ao carregar o email";
@@ -82,12 +82,12 @@
                                     readonly>
                                 <script>
                                     // Recupera os dados do usuário logado do localStorage
-                                    let userData2 = JSON.parse(localStorage.getItem("usuario_logado"));
+                                    const usuario_logado_email = localStorage.getItem("email")
 
                                     // Verifica se os dados do usuário existem e se o email está presente
-                                    if (userData2 && userData2.email) {
+                                    if (usuario_logado_email) {
                                         // Exibe o email do usuário no elemento com id "userName"
-                                        document.getElementById("userEmail").value = userData2.email;
+                                        document.getElementById("userEmail").value = usuario_logado_email;
                                     } else {
                                         // Se os dados do usuário ou o email estiverem ausentes, exibe uma mensagem de erro
                                         document.getElementById("userEmail").value = "Erro ao carregar o email";
@@ -114,7 +114,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="scripts_perfil"></script>
+    <script src="../code_js/scripts_perfil.js"></script>
 
 </body>
 
