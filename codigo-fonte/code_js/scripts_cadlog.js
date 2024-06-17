@@ -74,9 +74,11 @@ function saveData2(){
         let current_user=user_record.filter((v)=>{
             return v.email==email2 && v.password==password3;
         })[0];
-        localStorage.setItem("name",current_user.name);
-        localStorage.setItem("email",current_user.email);
-         // ARRUMAR AQUI -> ARRUMAR A PASTA DAR DEPLOY NOVAMENTE
+        localStorage.setItem("usuario_logado", JSON.stringify({"name": current_user.name, "email": current_user.email}));
+        // localStorage.setItem("name",current_user.name);
+        // localStorage.setItem("email",current_user.email);
+         
+        // ARRUMAR AQUI -> ARRUMAR A PASTA DAR DEPLOY NOVAMENTE
         window.location.replace("html_perfil.html");
     }
     else {

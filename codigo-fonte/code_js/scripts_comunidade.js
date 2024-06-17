@@ -13,11 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
             );
         }    
         // Ordenar postagens por ordem decrescente de data
-        postagens.sort((a, b) => new Date(b.data) - new Date(a.data));
+        postagens = postagens.sort((a, b) => new Date(b.data) - new Date(a.data));
 
         var postagensHtml = '';
 
         postagens.forEach(function (postagem, index) {
+            var postagemData = new Date(postagem.data);
             postagensHtml += `
     <div class="postagem" data-index="${postagem.id}">
         <div class="postagem-info">
@@ -25,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <p>${postagem.conteudo}</p>
             <div class="postagem-footer">
                 <span class="postagem-usuario"><i class="fas fa-user"></i> ${postagem.nomeUsuario}</span>
-                <span class="postagem-data">${postagem.data}</span>
+                <span class="postagem-data">${postagemData.toLocaleString()}</span>
             </div>
             <div class="btn-group mt-3" role="group" aria-label="Botões de like e dislike">
                 <button type="button" class="btn btn-outline-success like-btn"><i class="fas fa-arrow-up"></i></button>
@@ -135,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
             titulo: titulo,
             conteudo: conteudo,
             likes: 0,
-            data: new Date().toLocaleString()
+            data: new Date().toISOString()
         });
 
         localStorage.setItem('postagens', JSON.stringify(postagens));
@@ -188,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Adicionar evento de clique para limpar o armazenamento local
-    document.getElementById('limparLocalStorage').addEventListener('click', limparLocalStorage);
+    // document.getElementById('limparLocalStorage').addEventListener('click', limparLocalStorage);
 
     // Adicionar evento de clique para os botões de like e dislike
     document.getElementById('postagens').addEventListener('click', function (event) {
