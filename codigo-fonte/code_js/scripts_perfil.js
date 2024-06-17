@@ -1,5 +1,4 @@
 function logOut() {
-    localStorage.removeItem("name");
-    localStorage.removeItem("email");
+    localStorage.removeItem("usuario_logado");
     window.location.href = "html_cadlog.html";
 };
