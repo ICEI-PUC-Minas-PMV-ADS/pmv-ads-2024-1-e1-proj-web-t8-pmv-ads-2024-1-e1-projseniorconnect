@@ -127,8 +127,8 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01  | O sistema deve permitir ao usuário cadastrar uma conta fornecendo informações básicas como nome, e-mail de acesso e senha.| **Alta** | 
-| RF-02  | O sistema deve possuir uma funcionalidade de pesquisa para permitir ao usuário localizar com facilidade as sessões da aplicação. | **Alta**   |
+|RF-01| O sistema deve permitir ao usuário cadastrar uma conta fornecendo informações básicas como nome, e-mail de acesso e senha.| **Alta** | 
+|RF-02| O sistema deve possuir uma funcionalidade de pesquisa para permitir ao usuário localizar com facilidade as sessões da aplicação. | **Alta**   |
 | RF-03  | O sistema deve permitir ao usuário fazer o login em sua conta. | **Alta** | 
 | RF-04  | O sistema deve permitir ao usuário fazer o logout de sua conta. | **Alta** | 
 | RF-05  | O sistema deve permitir ao usuário alterações no seu cadastro. | **Média** |
