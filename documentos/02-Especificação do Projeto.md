@@ -132,10 +132,12 @@
 | RF-03  | O sistema deve permitir ao usuário fazer o login em sua conta. | **Alta** | 
 | RF-04  | O sistema deve permitir ao usuário fazer o logout de sua conta. | **Alta** | 
 | RF-05  | O sistema deve permitir ao usuário alterações no seu cadastro. | **Média** |
-| RF-06  | O sistema deve permitir que os usuários redefinam sua senha caso a esqueçam ou a percam através do envio de um e-mail de redefinição de senha. | **Alta** |
+| RF-06  | A aplicação deve ter uma sessão de Tecnologia intuitiva e de fácil navegação. | **Média** |
 | RF-07  | O site deve ter uma funcionalidade que permita a interação entre os usuários da plataforma | **Média** |
 | RF-08  | Os usuários devem poder encontrar uma lista de cursos disponíveis sobre diversos temas.   | **Média** |
-| RF-09  | O sistema deve oferecer a possibilidade de integração com redes sociais, permitindo que os usuários compartilhem seu progresso, realizações ou atividades da plataforma em suas redes.  | **Baixa** |
+| RF-09  | Os usuários devem ter à sua disposição uma página de Notícias recentes e atualizadas com informações de fontes confiáveis.   | **Média** |
+| RF-10  | A plataforma deve ter uma página com desafios para entreter e auxiliar na manutenção da saúde mental de seus usuários.   | **Média** |
+| RF-11  | O sistema deve oferecer a possibilidade de integração com redes sociais, permitindo que os usuários compartilhem seu progresso, realizações ou atividades da plataforma em suas redes.  | **Baixa** |
 
 **Prioridade: Alta / Média / Baixa. 
 
