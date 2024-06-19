@@ -145,7 +145,7 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 | O sistema deve ser compatível com os sistemas: Microsoft Windows, Android, IOS, Linux e Apple macOS. | **Alta**    | 
+| RNF_01 | O sistema deve ser compatível com os sistemas: Microsoft Windows, Android, IOS, Linux e Apple macOS. | **Alta**    | 
 | RNF-02 | O sistema deve ser compatível com os principais navegadores de internet: Google Chrome, Mozilla Firefox e Microsoft Edge.   | **Alta** | 
 | RNF-03 | O sistema deve permitir ao usuário completar uma tarefa de cadastro de cliente em até 2 minutos.      | **Alta** |
 | RNF-04 | A página principal deve carregar em até 5 segundos.     | **Média** |
