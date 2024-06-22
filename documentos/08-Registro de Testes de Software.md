@@ -24,8 +24,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 | Resultados obtidos | Funcionamento adequado da página de perfil  |
 | Responsável pelo caso de Teste | Rafael |
 
-
-| VIDEO | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/31a1a328-5e3a-40b8-80e7-c7200f0e18c4 |
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/31a1a328-5e3a-40b8-80e7-c7200f0e18c4
 
 
 
