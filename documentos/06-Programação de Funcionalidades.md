@@ -29,8 +29,7 @@ Rafael Pessoa
 
 #### Requisito atendido
 
-- RF - 02: O sistema deve possuir uma funcionalidade de pesquisa para permitir ao usuário localizar com facilidade as sessões da aplicação.
-- RF - 06: O site deve ter uma funcionalidade que permita a interação entre os usuários da plataforma.
+- RF - 09: Os usuários devem ter à sua disposição uma página de Notícias recentes e atualizadas com informações de fontes confiáveis.
 
 #### Artefatos da funcionalidade
 
