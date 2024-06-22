@@ -18,12 +18,37 @@
 - capa_comunidade.png (imagem)
 
 #### Instruções de acesso
-
-Abrir a pasta "paginaComunidade" dentro da pasta "codigo-fonte" no repositório. Salvar os 5 arquivos em uma pasta e abrir um Live Server via VScode
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_comunidade.html
 
 #### Responsável
-
 Rafael Pessoa
+
+### Tela de Notícias
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/a36820ea-baf5-425a-b16f-31693fe077b6)
+
+#### Requisito atendido
+
+- RF - 02: O sistema deve possuir uma funcionalidade de pesquisa para permitir ao usuário localizar com facilidade as sessões da aplicação.
+- RF - 06: O site deve ter uma funcionalidade que permita a interação entre os usuários da plataforma.
+
+#### Artefatos da funcionalidade
+
+- html_noticias.html
+- style_noticias.css
+- script_noticias.js
+- mini_logo_cortada.png (imagem)
+
+#### Instruções de acesso
+Acessar o link: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_noticias.html
+
+#### Responsável
+Rafael Pessoa
+
+
+
+
+
 
 ### Home Page
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/blob/main/codigo-fonte/paginaHome/funcionalidade%20home%20page.png).
