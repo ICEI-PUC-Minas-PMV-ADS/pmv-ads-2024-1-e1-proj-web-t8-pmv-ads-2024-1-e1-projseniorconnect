@@ -137,7 +137,8 @@
 | RF-08  | Os usuários devem poder encontrar uma lista de cursos disponíveis sobre diversos temas.   | **Média** |
 | RF-09  | Os usuários devem ter à sua disposição uma página de Notícias recentes e atualizadas com informações de fontes confiáveis.   | **Média** |
 | RF-10  | A plataforma deve ter uma página com desafios para entreter e auxiliar na manutenção da saúde mental de seus usuários.   | **Média** |
-| RF-11  | O sistema deve oferecer a possibilidade de integração com redes sociais, permitindo que os usuários compartilhem seu progresso, realizações ou atividades da plataforma em suas redes.  | **Baixa** |
+| RF-11  | A plataforma deve oferecer aos usuários uma forma de contato direto com a equipe através de algum formulário.  | **Média** |
+| RF-12  | O sistema deve oferecer a possibilidade de integração com redes sociais, permitindo que os usuários compartilhem seu progresso, realizações ou atividades da plataforma em suas redes.  | **Baixa** |
 
 **Prioridade: Alta / Média / Baixa. 
 
