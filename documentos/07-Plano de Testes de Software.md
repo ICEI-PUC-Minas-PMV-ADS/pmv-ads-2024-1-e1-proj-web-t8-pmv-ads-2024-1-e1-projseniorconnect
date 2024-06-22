@@ -4,17 +4,15 @@
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste    | CT-01 - Berificar links da Homepage |
 |:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Requisitos Associados | RF-02 |
+| Objetivo do Teste | Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente e se o formulário de contato está corretamente configurado |
+| Passos | 1- Acessar o navegador.
+2- Informar o endereço do site.
+3- Visualizar a Homepage.
+4- Clicar em todos links da Homepage.
+5- Verificar se os campos do formulário estão corretamente configurados |
+| Critérios de êxito | Todos os links da página Home devem encaminhar os usuários para alguma das sessões do site e o formulário de contato deve estar funcionando.  |
+| Responsável pela elaborar do caso de Teste | Rafael |
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
