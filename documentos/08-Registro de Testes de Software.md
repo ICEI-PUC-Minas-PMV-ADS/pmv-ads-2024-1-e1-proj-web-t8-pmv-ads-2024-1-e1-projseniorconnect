@@ -11,11 +11,11 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 
 
-CADSTRO
+PROFILE
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/31a1a328-5e3a-40b8-80e7-c7200f0e18c4
 
 
-PROFILE
+CADASTRO
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/105830948/820a07ff-2b41-41c0-ace4-8e7d34c9a729
 
 
