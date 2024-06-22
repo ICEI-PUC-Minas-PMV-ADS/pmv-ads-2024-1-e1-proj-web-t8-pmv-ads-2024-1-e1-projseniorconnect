@@ -17,7 +17,7 @@ Este projeto visa criar uma aplicação web dedicada aos idosos e aos grupos que
 
 ## Orientador
 
-* Amália Vasconcelos
+* Amália Soares Vieira de Vasconcelos
 
 # Documentação
 
