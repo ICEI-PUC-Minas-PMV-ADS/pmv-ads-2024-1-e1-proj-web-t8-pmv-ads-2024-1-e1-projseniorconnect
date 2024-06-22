@@ -25,7 +25,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |Caso de Teste    | CT-03 - Verificar página de perfil e funcionalidade do botão de logout |
 |:---|:---|
 | Requisitos Associados | RF-04|
-| Objetivo do Teste | Verificar se os links da página de perfil e o botão de logout estão funcionando corretamente |
+| Objetivo do Teste | Verificar se os links da página de perfil e o botão de logout estão funcionando corretamente e se os dados do usuário estão corretos. |
 | Passos | 1- Acessar o navegador / 2- Informar o endereço do site / 3- Verificar se dados do usuário na página de perfil estão corretos / 4- Verificar se links na barra de navegação estão funcionando / 5- Retornar à página de perfil / 6- Pressionar o botão de logout / 7- Ser redirecionado para página de login e cadastro.|
 | Critérios de êxito | Links devem estar funcionando e após o logout o usuario deve ser redirecionado para página de login e cadastro Obs.: informações do usuário logado devem ter desaparecido do local storage. |
 | Responsável pelo caso de Teste | Rafael |
