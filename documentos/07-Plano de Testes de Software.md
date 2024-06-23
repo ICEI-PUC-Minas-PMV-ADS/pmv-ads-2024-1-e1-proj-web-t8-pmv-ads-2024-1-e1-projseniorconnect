@@ -29,3 +29,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Passos | 1- Acessar o navegador / 2- Informar o endereço do site / 3- Verificar se dados do usuário na página de perfil estão corretos / 4- Verificar se links na barra de navegação estão funcionando / 5- Retornar à página de perfil / 6- Pressionar o botão de logout / 7- Ser redirecionado para página de login e cadastro.|
 | Critérios de êxito | Links devem estar funcionando e após o logout o usuario deve ser redirecionado para página de login e cadastro Obs.: informações do usuário logado devem ter desaparecido do local storage. |
 | Responsável pelo caso de Teste | Rafael |
+
+|Caso de teste	|  CT-04 - Verificar página de cursos |
+|:---|:---|
+|Requisitos Associados |RF-07
+|Objetivo do Teste	| Verifique se os links dos cursos estão encaminhando para as respectivas páginas corretamente e se o formulário de contato está configurado corretamente |
+| Passos	| 1- Acessar o navegador / 2- Informar o endereço do site / 3- Visualizar a Homepage / 4- Clicar em todos os links da Pagína de cursos / 5- Verificar se os campos do formulário estão configurados corretamente |
+| Critérios de sucesso | 	Todos os botoes da pagína de cursos devem encaminhar os usuários para algumas sessões de estudo especificas. | 
+| Responsável pelo caso de teste	| Arthur |
