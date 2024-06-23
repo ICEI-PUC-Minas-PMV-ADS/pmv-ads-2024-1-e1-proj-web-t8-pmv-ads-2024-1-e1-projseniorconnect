@@ -77,6 +77,12 @@ Barbara Farias
 ### Tela de cadastro/login
 
 ![image](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_cadlog.html)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/165973143/1c35995b-f404-4c10-8820-9682b1bf4d03)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/165973143/1c81dfac-b767-4fe8-a806-7fde69ac4d37)
+
+
+
+
 
 #### Requisito atendido
 RF- 01 O sistema deve permitir ao usuário cadastrar uma conta fornecendo informações básicas como nome, idade, e-mail de acesso e senha.
@@ -102,6 +108,8 @@ Arthur Goncalves
 
 ### Tela de cursos 
 ![image](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_cursos.html)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/165973143/66250008-2a57-4df6-aa34-c074b6092cbd)
+
 
 #### Requisito atendido
 
