@@ -49,6 +49,8 @@ Rafael Pessoa
 
 
 
+
+
 ### Home Page
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/blob/main/codigo-fonte/paginaHome/funcionalidade%20home%20page.png).
 
@@ -71,3 +73,49 @@ Preencher os campos de nome, email e mensagem ao final da home page.
 
 #### Responsável
 Barbara Farias 
+
+### Tela de cadastro/login
+
+![image](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_cadlog.html)
+
+#### Requisito atendido
+RF- 01 O sistema deve permitir ao usuário cadastrar uma conta fornecendo informações básicas como nome, idade, e-mail de acesso e senha.
+RF- 03 O sistema deve permitir ao usuário fazer o login e o logoff em sua conta.
+RF- 04	O sistema deve permitir ao usuário alterações no seu cadastro.	
+RF- 05	O sistema deve permitir que os usuários redefinam sua senha caso a esqueçam ou a percam através do envio de um e-mail de redefinição de senha.	
+
+
+
+#### Artefatos da funcionalidade
+
+- html_cadlog.html
+- style_cadlog.css
+- scripts_cadlog.js
+
+#### Instruções de acesso
+
+Acessar o link:
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_cadlog.html
+
+#### Responsável 
+Arthur Goncalves
+
+### Tela de cursos 
+![image](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_cursos.html)
+
+#### Requisito atendido
+
+Os usuários devem poder navegar por uma lista de cursos disponíveis e filtrá-los por categoria de interesse e necessidade.
+
+#### Artefatos da funcionalidade
+- html_cursos.html
+- style_cursos.css
+- script_cursos.js
+
+#### Instruções de acesso
+
+Acessar o link: 
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_cursos.html
+
+#### Responsável 
+Arthur Goncalves
