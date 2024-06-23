@@ -34,6 +34,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |:---|:---|
 |Requisitos Associados |RF-07
 |Objetivo do Teste	| Verifique se os links dos cursos estão encaminhando para as respectivas páginas corretamente e se o formulário de contato está configurado corretamente |
-| Passos	| 1- Acessar o navegador / 2- Informar o endereço do site / 3- Visualizar a Homepage / 4- Clicar em todos os links da Pagína de cursos / 5- Verificar se os campos do formulário estão configurados corretamente |
+| Passos	| 1- Acessar o navegador / 2- Informar o endereço do site / 3- Visualizar a Pagína de cursos/ 4- Clicar em todos os links da Pagína de cursos / 5- Verificar se os campos do formulário estão configurados corretamente |
 | Critérios de sucesso | 	Todos os botoes da pagína de cursos devem encaminhar os usuários para algumas sessões de estudo especificas. | 
 | Responsável pelo caso de teste	| Arthur |
