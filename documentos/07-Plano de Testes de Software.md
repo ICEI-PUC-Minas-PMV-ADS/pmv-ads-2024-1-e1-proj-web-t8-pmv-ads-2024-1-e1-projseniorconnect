@@ -37,3 +37,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Passos	| 1- Acessar o navegador / 2- Informar o endereço do site / 3- Visualizar a Pagína de cursos/ 4- Clicar em todos os links da Pagína de cursos / 5- Verificar se os campos do formulário estão configurados corretamente |
 | Critérios de sucesso | 	Todos os botoes da pagína de cursos devem encaminhar os usuários para algumas sessões de estudo especificas. | 
 | Responsável pelo caso de teste	| Arthur |
+
+|Caso de teste	|  CT-05 - Verificar página de cursos |
+|:---|:---|
+|Requisitos Associados |RF- 08
+|Objetivo do Teste	| O sistema deve oferecer a possibilidade de integração com redes sociais, permitindo que os usuários compartilhem seu progresso, realizações ou atividades da plataforma em suas redes. |
+| Passos	| 1- Acessar o navegador / 2- Informar o endereço do site / 3- Visualizar a Pagína de comunidade/ 4- Fazer postagens e interagir com outros usuarios  / 5- Verificar se os campos do formulário estão configurados corretamente |
+| Critérios de sucesso | 	Interacões entre os usuarios nos campos de Conteúdo da Postagem | 
+| Responsável pelo caso de teste	| Arthur |
+
