@@ -9,7 +9,8 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 > - Solução Implementada (funcionalidades de software)
 > - Conclusão da elaboração do projeto (pontos positivos, desafios, aprendizado).
 
-[Adicione pdf de apresentação.][SLIDES SENNIOR.pdf](https://github.com/user-attachments/files/15755365/SLIDES.SENNIOR.pdf)
+[Adicione pdf de apresentação.][SENIOR CONNECT  (3).pdf](https://github.com/user-attachments/files/15945500/SENIOR.CONNECT.3.pdf)
+
 
 
 ## Vídeo de apresentação
