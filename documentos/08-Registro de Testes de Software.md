@@ -30,9 +30,17 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
  
 |Caso de Teste    | Pagína de comunidade
+|:---|:---|
+| Resultados obtidos | Funcionamento adequado da página de comunidade  | 
+| Responsável pelo caso de Teste | Arthur |
+
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/165973143/59d37080-373b-499f-a509-6e0ba67c52d6
 
 
-|Caso de Teste    | Pagína de cadastro / login
+|Caso de Teste    | Pagína de cadastro e login
+|:---|:---|
+| Resultados obtidos | Funcionamento adequado da página de cadastro e login |
+| Responsável pelo caso de Teste | Arthur |
+
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/165973143/9bbf464c-a1bf-4023-b830-20d13172de71
 
