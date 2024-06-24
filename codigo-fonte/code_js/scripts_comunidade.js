@@ -193,31 +193,55 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Adicionar evento de clique para os botões de like e dislike
     document.getElementById('postagens').addEventListener('click', function (event) {
-        if (event.target.classList.contains('like-btn')) {
+        var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
+        
+        if (event.target.classList.contains('like-btn') || event.target.classList.contains('dislike-btn')) {
             var postagemId = event.target.closest('.postagem').dataset.index;
-            var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
-            var likes = postagens.find(x => x.id === postagemId).likes || 0;
-            likes++;
+            var postagem = postagens.find(x => x.id === postagemId);
+            var likes = postagem.likes || 0;
+    
+            if (event.target.classList.contains('like-btn')) {
+                likes++;
+            } else if (event.target.classList.contains('dislike-btn')) {
+                likes--;
+                if (likes < 0) {
+                    likes = 0; // Garantir que os likes não fiquem negativos
+                }
+            }
+    
             updateLikes(postagemId, likes);
         }
-        if (event.target.classList.contains('dislike-btn')) {
-            var postagemId = event.target.closest('.postagem').dataset.index;
-            var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
-            var likes = postagens.find(x => x.id === postagemId).likes || 0;
-            likes--;
-            updateLikes(postagemId, likes);
-        }
+    
         if (event.target.classList.contains('enviar-comentario')) {
             var postagemId = event.target.dataset.index;
             var comentario = document.getElementById(`comentario-${postagemId}`).value;
-            var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
-            if (!postagens.find(x => x.id === postagemId).comentarios) postagens.find(x => x.id === postagemId).comentarios = [];
-            postagens.find(x => x.id === postagemId).comentarios.push({
+            
+            var postagem = postagens.find(x => x.id === postagemId);
+            if (!postagem.comentarios) {
+                postagem.comentarios = [];
+            }
+            postagem.comentarios.push({
                 nomeUsuario: usuario_logado.name,
                 texto: comentario
             });
+    
             localStorage.setItem('postagens', JSON.stringify(postagens));
             exibirPostagens();
         }               
     });
+    
+    // Função para atualizar os likes
+    function updateLikes(postagemId, likes) {
+        var postagens = JSON.parse(localStorage.getItem('postagens')) || [];
+        var postagem = postagens.find(x => x.id === postagemId);
+    
+        if (postagem) {
+            postagem.likes = likes;
+            localStorage.setItem('postagens', JSON.stringify(postagens));
+            exibirPostagens();
+        }
+    }
+    
+
+
 });

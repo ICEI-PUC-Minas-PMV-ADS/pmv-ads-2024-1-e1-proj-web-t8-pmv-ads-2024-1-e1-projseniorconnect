@@ -16,6 +16,13 @@
     margin-right: 5px;
 }
 
+
+.postagem-conteudo {
+    overflow-wrap: break-word; /* Padrão mais moderno */
+    word-break: break-word; /* Garante que as palavras sejam quebradas */
+}
+
+
 .comentario-info {
     margin-bottom: 10px;
     display: flex;

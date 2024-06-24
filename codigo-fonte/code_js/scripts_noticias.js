@@ -2,21 +2,22 @@ let breakingImg = document.querySelector("#breakingImg");
 let breakingNews_title = document.querySelector("#breakingNews .card-title");
 let breakingNews_desc = document.querySelector("#breakingNews .card-text");
 let topNews = document.getElementById("topNews");
-let sportsNews = document.querySelector("#sportsNews .newsBox");
-let businessNews = document.querySelector("#businessNews .newsBox");
-let techNews = document.querySelector("#techNews .newsBox");
-let items = document.querySelectorAll('.carousel .carousel-item')
+let sportsNews = document.querySelector("#sportsNews");
+let businessNews = document.querySelector("#businessNews");
+let techNews = document.querySelector("#techNews");
 
 // fetching news data from website API
 
 const apiKey = "fa8c2ed8a3ae47d38553a237f062de74"
 const fetchData = async (category, pageSize) => {
-    const url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&pageSize=${pageSize}&apiKey=${apiKey}`
-    const data = await fetch("../code_js/noticias.json");
+    const url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&pageSize=${pageSize + 10}&apiKey=${apiKey}`
+    const data = await fetch("noticias.json");
     // const data = await fetch(url);
     const response = await data.json();
+    // console.log(JSON.stringify(response));
     const result = response[category].articles.filter(article => article.urlToImage != null);
-    return result;
+    // const result = response.articles.filter(article => article.urlToImage != null);
+    return result.slice(0, pageSize);
 }
 
 // adding breaking news
@@ -27,9 +28,7 @@ const add_breakingNews = (data) => {
     breakingNews_desc.innerHTML = `${data[0].description}`
 }
 
-fetchData("general1", 5).then(add_breakingNews)
-// fetchData("general", 5).then(add_breakingNews)
-
+fetchData("general", 3).then(add_breakingNews)
 
 const add_topNews = (data) => {
     let html = ""
@@ -53,30 +52,120 @@ const add_topNews = (data) => {
     topNews.innerHTML = html
 }
 
-fetchData("general2", 15).then(add_topNews)
-// fetchData("general", 15).then(add_topNews)
+fetchData("general", 8).then(add_topNews)
 
-//NEW CODE
+// const add_sportsNews = (data) => {
+//     let html = ""
+//     const perSlide = 3;
+//     html += `
+//                 <div class="carousel-item active">
+//                     <div class="row">
+//                         <!-- API here (${index}) -->
+//             `
 
-items.forEach((el) => {
-    const minPerSlide = 10
-    let next = el.nextElementSibling
-    for (var i = 1; i < minPerSlide; i++) {
-        if (!next) {
-            // wrap carousel by using first child
-            next = items[0]
-        }
-        let cloneChild = next.cloneNode(true)
-        el.appendChild(cloneChild.children[0])
-        next = next.nextElementSibling
-    }
-})
+//     data.forEach((element, index) => {
+//         if (element.title, length < 100) {
+//             title = element.title
+//         }
+//         else {
+//             title = element.title.slice(0, 100) + "..."
+//         }
 
-const add_sportsNews = (data) => {
-    console.log(JSON.stringify(data));
+//         html += `
+//                     <div class="col-md-4 mb-3">
+//                         <div class="card text-center">
+//                             <img class="card-img" src="${element.urlToImage}" alt="">
+//                             <div class="card-body">
+//                                 <div class="card-title">
+//                                     <a href=${element.url} target="_blank"><p>${title}</p></a>
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 `
+
+//         if ((index + 1) % perSlide === 0) { // (index) + 1 === 3 || index + 1 === 6 || index + 1 === 9
+//             html += `
+//                 </div>
+//             </div>
+//             <div class="carousel-item">
+//                 <div class="row">
+//                     <!-- API here (${index}) -->
+//         `
+//         }
+//     });
+
+//     html += `
+//                 </div>
+//             </div>
+//             `;
+
+//     sportsNews.innerHTML = html;
+// }
+
+fetchData("sports", 12).then(data => add_carousel(sportsNews, data));
+fetchData("business", 12).then(data => add_carousel(businessNews, data));
+fetchData("science", 12).then(data => add_carousel(techNews, data));
+
+
+// const add_businessNews = (data) => {
+//     let html = ""
+//     data.forEach((element) => {
+//         if (element.title, length < 100) {
+//             title = element.title
+//         }
+//         else {
+//             title = element.title.slice(0, 100) + "..."
+//         }
+
+//         html += `<div class="col col-md-4">
+//                     <img src=${element.urlToImage} class="img-fluid card-img-top" alt="...">
+//                     <div class="card-body">
+//                         <div class="card-title">Card title
+//                             <a href=${element.url} target="_blank"><p>${title}</p></a>
+//                         </div>
+//                     </div>
+//                 </div>`
+//     })
+//     businessNews.innerHTML = html
+// }
+
+// fetchData("business", 10).then(add_businessNews)
+
+// const add_techNews = (data) => {
+//     let html = ""
+//     data.forEach((element) => {
+//         if (element.title, length < 100) {
+//             title = element.title
+//         }
+//         else {
+//             title = element.title.slice(0, 100) + "..."
+//         }
+
+//         html += `<div class="col col-md-4">
+//                     <img src=${element.urlToImage} class="img-fluid card-img-top" alt="...">
+//                     <div class="card-body">
+//                         <div class="card-title">Card title
+//                             <a href=${element.url} target="_blank"><p>${title}</p></a>
+//                         </div>
+//                     </div>
+//                 </div>`
+//     })
+//     techNews.innerHTML = html
+// }
+
+// fetchData("technology", 10).then(add_techNews)
+
+const add_carousel = (parent, data) => {
     let html = ""
-    var sport = 1;
-    data.forEach((element) => {
+    const perSlide = 3;
+    html += `
+                <div class="carousel-item active">
+                    <div class="row">
+                        <!-- API here -->
+            `
+
+    data.forEach((element, index) => {
         if (element.title, length < 100) {
             title = element.title
         }
@@ -84,134 +173,34 @@ const add_sportsNews = (data) => {
             title = element.title.slice(0, 100) + "..."
         }
 
-        if (sport = 1) {
-            html += `<div class="carousel-item active">
-            <div class="col-md-3">
-                 <div class="card">
-            <img src=${element.urlToImage} class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-                <div class="card-title">
-                    <a href=${element.url} target="_blank"><p>${title}</p></a>
+        html += `
+                    <div class="col-md-4 mb-3">
+                        <div class="card text-center">
+                            <img class="card-img" src="${element.urlToImage}" alt="">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <a href=${element.url} target="_blank"><p>${title}</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `
+
+        if ((index + 1) % perSlide === 0 && (index + 1) < data.length) { // (index) + 1 === 3 || index + 1 === 6 || index + 1 === 9
+            html += `
                 </div>
             </div>
-            </div>
-        </div>
-        </div>`
-                sport++;
+            <div class="carousel-item">
+                <div class="row">
+                    <!-- API here -->
+        `
         }
-        else {
-            html += `<div class="carousel-item">
-            <div class="col-md-3">
-                 <div class="card">
-            <img src=${element.urlToImage} class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-                <div class="card-title">
-                    <a href=${element.url} target="_blank"><p>${title}</p></a>
+    });
+
+    html += `
                 </div>
             </div>
-            </div>
-        </div>
-        </div>`
-                sport++;
-        }
-    })
-    sportsNews.innerHTML = html
+            `;
+
+    parent.innerHTML = html;
 }
-
-fetchData("sports", 10).then(add_sportsNews)
-
-
-const add_businessNews = (data) => {
-    let html = ""
-    var business = 1;
-    data.forEach((element) => {
-        if (element.title, length < 100) {
-            title = element.title
-        }
-        else {
-            title = element.title.slice(0, 100) + "..."
-        }
-
-        if (business = 1) {
-            html += `<div class="carousel-item active">
-            <div class="col-md-3">
-                 <div class="card">
-            <img src=${element.urlToImage} class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-                <div class="card-title">
-                    <a href=${element.url} target="_blank"><p>${title}</p></a>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>`
-            business++;
-        }
-        else {
-            html += `<div class="carousel-item">
-            <div class="col-md-3">
-                 <div class="card">
-            <img src=${element.urlToImage} class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-                <div class="card-title">
-                    <a href=${element.url} target="_blank"><p>${title}</p></a>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>`
-            business++;
-        }
-    })
-    businessNews.innerHTML = html
-}
-
-fetchData("business", 10).then(add_businessNews)
-
-
-const add_techNews = (data) => {
-    let html = ""
-    var tech = 1;
-    data.forEach((element) => {
-        if (element.title, length < 100) {
-            title = element.title
-        }
-        else {
-            title = element.title.slice(0, 100) + "..."
-        }
-
-        if (tech = 1) {
-            html += `<div class="carousel-item active">
-            <div class="col-md-3">
-                 <div class="card">
-            <img src=${element.urlToImage} class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-                <div class="card-title">
-                    <a href=${element.url} target="_blank"><p>${title}</p></a>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>`
-                tech++;
-        }
-        else {
-            html += `<div class="carousel-item">
-            <div class="col-md-3">
-                 <div class="card">
-            <img src=${element.urlToImage} class="img-fluid card-img-top" alt="...">
-            <div class="card-body">
-                <div class="card-title">
-                    <a href=${element.url} target="_blank"><p>${title}</p></a>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>`
-                tech++;
-        }
-    })
-    techNews.innerHTML = html
-}
-
-fetchData("technology", 10).then(add_techNews)
