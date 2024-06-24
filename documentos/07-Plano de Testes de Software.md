@@ -46,3 +46,18 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de sucesso | 	Interacões entre os usuarios nos campos de Conteúdo da Postagem | 
 | Responsável pelo caso de teste	| Arthur |
 
+|Caso de teste	|  CT-06 - Verificar página de comunidade |
+|:---|:---|
+|Requisitos Associados |RF- 08
+|Objetivo do Teste	| O sistema deve oferecer a comunicação dos alunos atraves de comentarios na pagina comunidade, permitindo que os usuários compartilhem seus depoimentos ou quaisquer coentarios de interação. |
+| Passos	| 1- Acessar o navegador / 2- Informar o endereço do site / 3- Visualizar a Pagína de comunidade/ 4- Fazer postagens e interagir com outros usuarios.
+| Critérios de sucesso | 	Interacões entre os usuarios nos campos de Conteúdo da Postagem | 
+| Responsável pelo caso de teste	| Barbara |
+
+|Caso de teste	|  CT-07- Verificar página desafio|
+|:---|:---|
+|Requisitos Associados |RF- 08
+|Objetivo do Teste	| O sistema deve oferecer a possibilidade de interação com jogos que o proprio site oferece.
+| Passos	| 1- Acessar o navegador / 2- Informar o endereço do site / 3- Visualizar a Pagína de desafios/ 4- Escolher o jogo.
+| Critérios de sucesso | 	Interacões entre os usuarios nos campos de Conteúdo da Postagem | 
+| Responsável pelo caso de teste	| Barbara|
