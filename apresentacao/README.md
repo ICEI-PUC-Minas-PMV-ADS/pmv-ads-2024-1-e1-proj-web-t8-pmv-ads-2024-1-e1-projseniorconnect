@@ -1,7 +1,7 @@
 # Apresentação do Projeto
 
 ## Conjunto de Slides
-https://github.com/user-attachments/files/15945500/SENIOR.CONNECT.3.pdf
+[Senior_Connect.pdf](https://github.com/user-attachments/files/15948436/Senior_Connect.pdf)
 
 ## Vídeo de apresentação
 
