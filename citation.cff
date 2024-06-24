@@ -1,0 +1,21 @@
+message: Please cite this software using these metadata.
+title:
+authors:
+  - family-names: Gonçalves Vieira
+    given-names: Arthur
+  - family-names: Farias da Silva
+    given-names: Bárbara
+  - family-names: Yukinori
+    given-names: Hideki
+  - family-names: Pessoa de Carvalho
+    given-names: Rafael
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Soares Vieira de Vasconcelos
+    given-names: Amália
+keywords:
+  - Senior
+  - Connect
+repository-code: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/codigo-fonte/code_html/html_home.html
+version: 1.0.0
+date-released: 2024-06-23
