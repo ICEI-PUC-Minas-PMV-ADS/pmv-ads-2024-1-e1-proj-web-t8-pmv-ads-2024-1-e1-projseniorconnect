@@ -44,3 +44,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/165973143/9bbf464c-a1bf-4023-b830-20d13172de71
 
+Caso de Teste    | Pagína de Tecnologia e Desafios
+|:---|:---|
+| Resultados obtidos | Funcionamento adequado da página de tecnologia e desafios |
+| Responsável pelo caso de Teste | Hideki |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/165973143/9bbf464c-a1bf-4023-b830-20d13172de71
+

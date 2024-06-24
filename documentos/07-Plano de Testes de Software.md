@@ -58,6 +58,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |:---|:---|
 |Requisitos Associados |RF- 08
 |Objetivo do Teste	| O sistema deve oferecer a possibilidade de interação com jogos que o proprio site oferece.
-| Passos	| 1- Acessar o navegador / 2- Informar o endereço do site / 3- Visualizar a Pagína de desafios/ 4- Escolher o jogo.
-| Critérios de sucesso | 	Interacões entre os usuarios nos campos de Conteúdo da Postagem | 
-| Responsável pelo caso de teste	| Barbara|
+| Passos	| 1- Acessar o navegador / 2- Informar o endereço do site / 3- Visualizar a Pagína de desafios/ 4- Escolher o jogo. / 5- Usuário ser capaz de entender os desafios e fazer pontos corretamente.
+| Critérios de sucesso | 	Interacões do usuário com os desafios facilitado | 
+| Responsável pelo caso de teste	| Hideki|
+
+|Caso de teste	|  CT-08- Verificar página Tecnologia|
+|:---|:---|
+|Requisitos Associados |RF- 08
+|Objetivo do Teste	| O sistema deve oferecer a possibilidade de interação com os botões e redirecionamento de novas abas com o conteúdo desejado.
+| Passos	| 1- Acessar o navegador / 2- Informar o endereço do site / 3- Visualizar a Pagína de Tecnologia/ 4- Escolher o assunto. / 5- Abrir nova aba com o conteúdo desejado.
+| Critérios de sucesso | 	Interacões com os botões sem fechar o site principal | 
+| Responsável pelo caso de teste	| Hideki|
