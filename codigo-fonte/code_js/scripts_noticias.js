@@ -10,11 +10,11 @@ let techNews = document.querySelector("#techNews");
 
 const apiKey = "fa8c2ed8a3ae47d38553a237f062de74"
 const fetchData = async (category, pageSize) => {
-    const url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&pageSize=${pageSize + 10}&apiKey=${apiKey}`
-    const data = await fetch("noticias.json");
+    // const url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&pageSize=${pageSize + 10}&apiKey=${apiKey}`
+    const data = await fetch("../code_js/noticias.json");
     // const data = await fetch(url);
     const response = await data.json();
-    // console.log(JSON.stringify(response));
+    console.log(JSON.stringify(response));
     const result = response[category].articles.filter(article => article.urlToImage != null);
     // const result = response.articles.filter(article => article.urlToImage != null);
     return result.slice(0, pageSize);
