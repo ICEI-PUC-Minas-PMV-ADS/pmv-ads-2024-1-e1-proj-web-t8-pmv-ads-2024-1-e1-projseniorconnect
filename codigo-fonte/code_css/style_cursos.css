@@ -10,6 +10,7 @@ body {
 }
 
 .container {
+    
     display: flex;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -120,7 +121,7 @@ footer {
     background-color: #3385ff;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 481) {
     .navbar-nav .nav-link {
         font-size: 20px;
         margin-bottom: 0;
@@ -135,8 +136,12 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .container {
         grid-template-columns: 1fr;
+        flex-wrap: wrap;
+    }
+    .meu-conteudo-de-pagina{
+padding-top: 380px;
     }
 }
