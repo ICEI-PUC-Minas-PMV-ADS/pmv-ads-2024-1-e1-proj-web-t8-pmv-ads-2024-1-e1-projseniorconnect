@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ECECEC;
+   /* background-color: white; */
 }
 
 .container {
@@ -221,9 +221,10 @@ body {
     font-weight: bold;
     
 }
+
+
 footer {
-    background-color: #3385ff;
-    color: #fff;
+    color: yellow;
     text-align: center;
     padding: 20px 0;
     
