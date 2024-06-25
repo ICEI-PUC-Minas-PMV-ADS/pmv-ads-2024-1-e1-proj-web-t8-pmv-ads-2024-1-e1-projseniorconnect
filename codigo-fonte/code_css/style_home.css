@@ -72,6 +72,10 @@
     margin-bottom: 20px;
 }
 
+p {
+    font-size: 22px;
+}
+
 label {
     display: block;
     margin-bottom: 5px;
