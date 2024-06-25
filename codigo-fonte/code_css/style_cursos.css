@@ -1,3 +1,4 @@
+/*
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -8,16 +9,44 @@ body {
     background-color: #f0f0f0;
     margin: 0;
 }
+    */
 
-.container {
-    
+
+/*
+.container meu-conteudo-de-pagina {
+
     display: flex;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     padding: 20px;
 }
+*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+body {
+    min-height: 100vh;
+}
+
+.container.meu-conteudo-de-pagina {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 100px; 
+    margin-bottom: 100px; 
+    overflow-x: auto;
+}
 
 .box {
+    margin-top: 100px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -25,6 +54,8 @@ body {
     padding: 20px;
     text-align: center;
     transition: transform 0.2s;
+    flex: 0 0 calc(20% - 20px);
+    max-height: 300px;
 }
 
 .box:hover {
@@ -52,6 +83,7 @@ body {
     background-color: #01748F;
 }
 
+/*
 footer {
     display: flex;
     position: fixed;
@@ -61,11 +93,12 @@ footer {
     width: 100%;
     background-color:  #3385ff
 }
+*/
 
 .navbar {
     margin: 0;
     padding: 10px 0; 
-    background-color: rgba(173, 216, 230, 0.7);
+    background-color: #3385ff !important;
     width: 100%;
     position: fixed;
     top: 0;
@@ -87,9 +120,11 @@ footer {
     border: none; 
 }
 
+/*
 .navbar-toggler-icon {
     background-color: #fff; 
 }
+*/
 
 .navbar-nav {
     display: flex;
@@ -98,7 +133,7 @@ footer {
 
 .navbar-nav .nav-link {
     font-size: 20px;
-    color: #fff; 
+    /*color: #fff; */
     text-decoration: none;
     transition: color 0.2s;
 }
@@ -136,6 +171,7 @@ footer {
     }
 }
 
+/*
 @media (max-width: 480px) {
     .container {
         grid-template-columns: 1fr;
@@ -143,5 +179,30 @@ footer {
     }
     .meu-conteudo-de-pagina{
 padding-top: 380px;
+    }
+}
+*/
+
+@media (max-width: 1200px) {
+    .box {
+        flex: 1 1 calc(25% - 20px); /* Ajusta para 4 cards por linha */
+    }
+}
+
+@media (max-width: 992px) {
+    .box {
+        flex: 1 1 calc(33.33% - 20px); /* Ajusta para 3 cards por linha */
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex: 1 1 calc(50% - 20px); /* Ajusta para 2 cards por linha */
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        flex: 1 1 100%; /* Ajusta para 1 card por linha */
     }
 }
