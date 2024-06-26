@@ -49,4 +49,5 @@ Caso de Teste    | Pagína de Tecnologia e Desafios
 | Resultados obtidos | Funcionamento adequado da página de tecnologia e desafios |
 | Responsável pelo caso de Teste | Hideki |
 
-<video controls src="testepaginas_Tecnologia_Desafios-1.mp4" title="Title"></video>
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projseniorconnect/assets/119014737/ef2f0d72-d886-406e-b4f8-6ac24c8c1b11
+
